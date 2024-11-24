@@ -1,0 +1,36 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo '🚀🚀🚀Styling, testing and building your project before committing'
+
+# Check pritter standards
+yarn check-format || 
+(
+    echo '🤮🤮🤮Its forking raw - Your styling looks disgusting. 
+        Prettier check failed. yarn format or npm run format, add changes and try commit again';
+    false;
+)
+
+# Check ESLint Standards
+yarn check-lint || 
+(
+    echo '☠️☠️☠️Get that weak shit out of here! Eslint check failed. make the required changes listed above, add change and try to commit again'
+    false; 
+)
+
+# Check tsconfig standards
+yarn check-types ||
+(
+    echo '☠️☠️☠️failed type check.
+        Are you seriously trying to write that ? make the change required above'
+    false;
+)
+
+yarn build || 
+(
+    echo '☠️☠️☠️Failed to build.
+        Are you seriously trying to write that ? make the change required above'
+    false;
+)
+
+echo '😍😍😍you win this time... I am committing this now'
