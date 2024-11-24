@@ -9,18 +9,15 @@ yarn check-format ||
     echo '🤮🤮🤮Its forking raw - Your styling looks disgusting. 
         Prettier check failed. yarn format or npm run format, add changes and try commit again';
     false;
-    echo '😍GREAT! you have successfully passed the prettier standards'
-    true;
 )
-
+echo '😍GREAT! you have successfully passed the prettier standards'
 # Check ESLint Standards
 yarn check-lint || 
 (
     echo '☠️☠️☠️Get that weak shit out of here! Eslint check failed. make the required changes listed above, add change and try to commit again'
     false; 
-    echo '😍EXCELENT! and yes you made it through again'
-    true;
 )
+echo '😍EXCELENT! and yes you made it through again'
 
 # Check tsconfig standards
 yarn check-types ||
@@ -28,18 +25,17 @@ yarn check-types ||
     echo '☠️☠️☠️failed type check.
         Are you seriously trying to write that ? make the change required above'
     false;
-    echo '😍PERFECT! keep like that!'
-    true;
 )
+echo '😍PERFECT! keep like that!'
 
 yarn build || 
 (
     echo '☠️☠️☠️Failed to build.
         Are you seriously trying to write that ? make the change required above'
     false;
-    echo '😍Finnaly! you publishing this code'
-    true;
+    
 )
+echo '😍Finnaly! you publishing this code'
 
 echo '😍😍😍you win this time rizal... I am committing this now'
 echo 'rizal said : Fuck you AI'
