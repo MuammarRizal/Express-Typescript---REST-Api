@@ -1,4 +1,4 @@
-import express, { type Request, type Response, type Application } from 'express'
+import express, { type Application } from 'express'
 import 'dotenv/config'
 import appMiddleware from './middleware'
 const app: Application = express()
