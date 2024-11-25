@@ -1,0 +1,346 @@
+[LOGGER] 2024-11-25 09:11:37.869 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/barang.service.ts(6,3): error TS2322: Type '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; }[]' is not assignable to type '[BarangType]'.
+  Target requires 1 element(s) but source may have fewer.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/services/barang.service.ts(6,3): error TS2322: Type '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; }[]' is not assignable to type '[BarangType]'.
+  Target requires 1 element(s) but source may have fewer.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:11:58.291 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/barang.service.ts(6,3): error TS2740: Type '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; }[]' is missing the following properties from type 'BarangType': id, nama, jumlah, harga, and 2 more.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/services/barang.service.ts(6,3): error TS2740: Type '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; }[]' is missing the following properties from type 'BarangType': id, nama, jumlah, harga, and 2 more.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:12:09.006 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/barang.service.ts(6,3): error TS2740: Type '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; }[]' is missing the following properties from type 'BarangType': id, nama, jumlah, harga, and 2 more.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/services/barang.service.ts(6,3): error TS2740: Type '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; }[]' is missing the following properties from type 'BarangType': id, nama, jumlah, harga, and 2 more.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:12:46.611 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/barang.service.ts(6,3): error TS2740: Type '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; }[]' is missing the following properties from type 'BarangType': id, nama, jumlah, harga, and 2 more.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/services/barang.service.ts(6,3): error TS2740: Type '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; }[]' is missing the following properties from type 'BarangType': id, nama, jumlah, harga, and 2 more.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:14:21.361 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/barang.service.ts(6,3): error TS2739: Type '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; }[]' is missing the following properties from type 'BarangType': id, nama, jumlah, harga
+
+TSError: ⨯ Unable to compile TypeScript:
+src/services/barang.service.ts(6,3): error TS2739: Type '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; }[]' is missing the following properties from type 'BarangType': id, nama, jumlah, harga
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:14:57.599 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/barang.service.ts(6,3): error TS2740: Type '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; }[]' is missing the following properties from type 'BarangType': id, nama, jumlah, harga, and 2 more.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/services/barang.service.ts(6,3): error TS2740: Type '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; }[]' is missing the following properties from type 'BarangType': id, nama, jumlah, harga, and 2 more.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:15:05.844 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/services/barang.service.ts(6,3): error TS2740: Type '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; }[]' is missing the following properties from type 'BarangType': id, nama, jumlah, harga, and 2 more.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/services/barang.service.ts(6,3): error TS2740: Type '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; }[]' is missing the following properties from type 'BarangType': id, nama, jumlah, harga, and 2 more.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:15:24.669 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(2,8): error TS2613: Module '"D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' has no default export. Did you mean to use 'import { BarangType } from "D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(2,8): error TS2613: Module '"D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' has no default export. Did you mean to use 'import { BarangType } from "D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' instead?
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:15:46.678 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(2,8): error TS2613: Module '"D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' has no default export. Did you mean to use 'import { BarangType } from "D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(2,8): error TS2613: Module '"D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' has no default export. Did you mean to use 'import { BarangType } from "D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' instead?
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:16:08.232 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/validations/barang.validation.ts(2,8): error TS2613: Module '"D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' has no default export. Did you mean to use 'import { BarangType } from "D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/validations/barang.validation.ts(2,8): error TS2613: Module '"D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' has no default export. Did you mean to use 'import { BarangType } from "D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' instead?
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:16:21.599 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/barang.route.ts(6,29): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request, res: Response, next: NextFunction) => Promise<BarangTypeDB[]>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(req: Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>, res: Response<any, Record<string, any>>, next: NextFunction) => Promise<...>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/routes/barang.route.ts(6,29): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request, res: Response, next: NextFunction) => Promise<BarangTypeDB[]>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(req: Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>, res: Response<any, Record<string, any>>, next: NextFunction) => Promise<...>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:17:46.255 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/barang.route.ts(6,29): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request, res: Response, next: NextFunction) => Promise<BarangTypeDB[]>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(req: Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>, res: Response<any, Record<string, any>>, next: NextFunction) => Promise<...>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/routes/barang.route.ts(6,29): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request, res: Response, next: NextFunction) => Promise<BarangTypeDB[]>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(req: Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>, res: Response<any, Record<string, any>>, next: NextFunction) => Promise<...>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:18:16.320 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(1,10): error TS2614: Module '"./../../node_modules/undici-types/dispatcher.d"' has no exported member 'ResponseData'. Did you mean to use 'import ResponseData from "./../../node_modules/undici-types/dispatcher.d"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(1,10): error TS2614: Module '"./../../node_modules/undici-types/dispatcher.d"' has no exported member 'ResponseData'. Did you mean to use 'import ResponseData from "./../../node_modules/undici-types/dispatcher.d"' instead?
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:18:25.403 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(1,10): error TS2614: Module '"./../../node_modules/undici-types/dispatcher.d"' has no exported member 'ResponseData'. Did you mean to use 'import ResponseData from "./../../node_modules/undici-types/dispatcher.d"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(1,10): error TS2614: Module '"./../../node_modules/undici-types/dispatcher.d"' has no exported member 'ResponseData'. Did you mean to use 'import ResponseData from "./../../node_modules/undici-types/dispatcher.d"' instead?
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:18:32.526 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(39,17): error TS2552: Cannot find name 'ResponseData'. Did you mean 'Response'?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(39,17): error TS2552: Cannot find name 'ResponseData'. Did you mean 'Response'?
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:18:43.689 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(48,7): error TS2322: Type 'BarangTypeDB[]' is not assignable to type 'BarangType[]'.
+  Type 'BarangTypeDB' is not assignable to type 'BarangType'.
+    Types of property 'id' are incompatible.
+      Type 'number' is not assignable to type 'string'.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(48,7): error TS2322: Type 'BarangTypeDB[]' is not assignable to type 'BarangType[]'.
+  Type 'BarangTypeDB' is not assignable to type 'BarangType'.
+    Types of property 'id' are incompatible.
+      Type 'number' is not assignable to type 'string'.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:19:04.883 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(44,11): error TS2740: Type 'BarangTypeDB[]' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga, and 2 more.
+src/controllers/barang.controller.ts(48,7): error TS2740: Type 'BarangTypeDB' is missing the following properties from type 'BarangType[]': length, pop, push, concat, and 29 more.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(44,11): error TS2740: Type 'BarangTypeDB[]' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga, and 2 more.
+src/controllers/barang.controller.ts(48,7): error TS2740: Type 'BarangTypeDB' is missing the following properties from type 'BarangType[]': length, pop, push, concat, and 29 more.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:19:43.671 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(44,11): error TS2740: Type 'BarangTypeDB[]' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga, and 2 more.
+src/controllers/barang.controller.ts(48,7): error TS2740: Type 'BarangTypeDB' is missing the following properties from type 'BarangType[]': length, pop, push, concat, and 29 more.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(44,11): error TS2740: Type 'BarangTypeDB[]' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga, and 2 more.
+src/controllers/barang.controller.ts(48,7): error TS2740: Type 'BarangTypeDB' is missing the following properties from type 'BarangType[]': length, pop, push, concat, and 29 more.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:19:53.247 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(44,11): error TS2740: Type 'BarangTypeDB[]' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga, and 2 more.
+src/controllers/barang.controller.ts(48,7): error TS2740: Type 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/barang.controller.ts(44,11): error TS2740: Type 'BarangTypeDB[]' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga, and 2 more.
+src/controllers/barang.controller.ts(48,7): error TS2740: Type 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-25 09:20:01.237 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+src/validations/barang.validation.ts(2,8): error TS2613: Module '"D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' has no default export. Did you mean to use 'import { BarangType } from "D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' instead?
+
+TSError: ⨯ Unable to compile TypeScript:
+src/validations/barang.validation.ts(2,8): error TS2613: Module '"D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' has no default export. Did you mean to use 'import { BarangType } from "D:/Learn Programming/Youtube/PojokKode/REST API - typescript/src/types/barang.types"' instead?
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)

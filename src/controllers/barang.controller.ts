@@ -1,6 +1,8 @@
 import { NextFunction, Request, Response } from 'express'
-import BarangType from '../types/barang.types'
 import { inputBarangValidation } from '../validations/barang.validation'
+import { getBarang } from '../services/barang.service'
+import { BarangType } from '../types/barang.types'
+import { ResponseData } from '../types/response.types'
 export const insertBarang = (
   req: Request,
   res: Response,
@@ -24,38 +26,33 @@ export const insertBarang = (
       data: value
     })
     return
-  } catch (error: Error | any) {
-    next(new Error('Error pada controller barang : ' + error.mesage))
+  } catch (error: unknown) {
+    if (error instanceof Error) {
+      next(new Error('Error pada controller barang : ' + error.message))
+    } else {
+      next(new Error('Unknown error occurred'))
+    }
   }
 }
 
-export const getAllBarang = (
+export const getAllBarang = async (
   req: Request,
-  res: Response,
+  res: Response<ResponseData>,
   next: NextFunction
-) => {
+): Promise<void> => {
   try {
-    const data: BarangType[] = [
-      {
-        id: '1',
-        nama: 'Kecap',
-        harga: 2000,
-        jumlah: 200
-      },
-      {
-        id: '2',
-        nama: 'Telur',
-        harga: 2000,
-        jumlah: 200
-      }
-    ]
+    const data = await getBarang()
 
     res.status(200).json({
       message: 'Get all barang succesfully',
       data
     })
     return
-  } catch (error: Error | any) {
-    next(new Error('Error in get allbarang controller : ' + error.message))
+  } catch (error: unknown) {
+    if (error instanceof Error) {
+      next(new Error('Error pada get all controller barang : ' + error.message))
+    } else {
+      next(new Error('Unknown error occurred'))
+    }
   }
 }
