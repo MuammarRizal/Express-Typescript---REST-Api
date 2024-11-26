@@ -20,3 +20,17 @@ TSError: ⨯ Unable to compile TypeScript:
     at Module.load (node:internal/modules/cjs/loader:1206:32)
     at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
     at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 02:38:46.261 PM error : Error pada get barang by id controller : getBarangById - 
+Invalid `prisma.barang.findUnique()` invocation in
+D:\Learn Programming\Youtube\PojokKode\REST API - typescript\src\services\barang.service.ts:34:36
+
+  31 export const getDetailBarang = async (
+  32   id: number
+  33 ): Promise<BarangTypeDB | null> => {
+→ 34   const data = await prisma.barang.findUnique({
+         where: {
+       +   id: Int
+         }
+       })
+
+Argument `id` is missing.

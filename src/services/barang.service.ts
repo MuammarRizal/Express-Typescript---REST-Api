@@ -6,7 +6,9 @@ export const getBarang = async (): Promise<BarangTypeDB[]> => {
   return data
 }
 
-export const insertBarangToDB = async (payload: any): Promise<BarangTypeDB> => {
+export const insertBarangToDB = async (
+  payload: BarangTypeDB
+): Promise<BarangTypeDB> => {
   const data = await prisma.barang.create({ data: payload })
   return data
 }

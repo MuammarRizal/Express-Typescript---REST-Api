@@ -35,18 +35,26 @@ export const insertBarang = async (
         data: insertDataDB
       })
       return
-    } catch (error) {
-      res.status(200).json({
-        error: null,
-        message: 'Input data sukses',
-        data: {}
-      })
+    } catch (error: unknown) {
+      if (error instanceof Error) {
+        next(
+          new Error(
+            'Error pada controller barang : insertBarang - ' + error.message
+          )
+        )
+      } else {
+        next(new Error('Unknown error occurred'))
+      }
     }
 
     return
   } catch (error: unknown) {
     if (error instanceof Error) {
-      next(new Error('Error pada controller barang : ' + error.message))
+      next(
+        new Error(
+          'Error pada controller barang : insertBarang - ' + error.message
+        )
+      )
     } else {
       next(new Error('Unknown error occurred'))
     }
@@ -68,7 +76,12 @@ export const getAllBarang = async (
     return
   } catch (error: unknown) {
     if (error instanceof Error) {
-      next(new Error('Error pada get all controller barang : ' + error.message))
+      next(
+        new Error(
+          'Error pada get all controller barang : getAllBarang - ' +
+            error.message
+        )
+      )
     } else {
       next(new Error('Unknown error occurred'))
     }
@@ -98,7 +111,12 @@ export const getBarangById = async (
     return
   } catch (error: unknown) {
     if (error instanceof Error) {
-      next(new Error('Error pada get all controller barang : ' + error.message))
+      next(
+        new Error(
+          'Error pada get barang by id controller : getBarangById - ' +
+            error.message
+        )
+      )
     } else {
       next(new Error('Unknown error occurred'))
     }
@@ -120,7 +138,12 @@ export const deleteBarangController = async (
     return
   } catch (error: unknown) {
     if (error instanceof Error) {
-      next(new Error('Error pada get all controller barang : ' + error.message))
+      next(
+        new Error(
+          'Error pada delete barang controller : deleteBarang - ' +
+            error.message
+        )
+      )
     } else {
       next(new Error('Unknown error occurred'))
     }
@@ -143,7 +166,6 @@ export const updateBarangController = async (
     })
     return
   }
-  console.log(value)
   try {
     const updateBarang = await updatedBarang({
       id: Number(req.params.id),
@@ -163,7 +185,12 @@ export const updateBarangController = async (
     return
   } catch (error: unknown) {
     if (error instanceof Error) {
-      next(new Error('Error pada update barang controller  : ' + error.message))
+      next(
+        new Error(
+          'Error pada update barang controller  : updateBarang - ' +
+            error.message
+        )
+      )
     } else {
       next(new Error('Unknown error occurred'))
     }

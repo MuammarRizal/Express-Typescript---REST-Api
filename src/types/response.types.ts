@@ -9,3 +9,9 @@ export interface ResponseDetailBarang {
   message: string
   data: BarangTypeDB | null
 }
+
+export interface ResponseErrorHandler {
+  message: string
+  error: string
+  data: null
+}
