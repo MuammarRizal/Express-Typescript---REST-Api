@@ -19,6 +19,26 @@ export interface ResponseErrorHandler {
 
 export interface ResponseTypeAuth {
   message: string
-  data: UserType[] | UserType
-  error?: string
+  data?: UserType[] | UserType
+  error?: string | null
+}
+
+export interface ResponseUserLogin {
+  message: string
+  data?: {
+    user_id: number | string
+    nama: string
+    email: string
+    role: string
+  }
+  error?: string | null
+  accessToken?: string
+  refreshToken?: string
+}
+
+export interface userResponse {
+  user_id: string | number
+  nama: string
+  email: string
+  role: string
 }

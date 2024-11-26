@@ -1,0 +1,462 @@
+[LOGGER] 2024-11-27 04:31:42.336 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ nama: string; created_at: Date; updated_at: Date; user_id: string; email: string; password: string; role: string; } | null' is not assignable to type 'UserType'.
+  Type 'null' is not assignable to type 'UserType'.
+
+[7m25[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ nama: string; created_at: Date; updated_at: Date; user_id: string; email: string; password: string; role: string; } | null' is not assignable to type 'UserType'.
+  Type 'null' is not assignable to type 'UserType'.
+
+[7m25[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 04:37:30.408 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m76[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m76[0m ): Promise<void> => {}
+[7m  [0m [91m   ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m76[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m76[0m ): Promise<void> => {}
+[7m  [0m [91m   ~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 04:38:10.729 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m76[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m76[0m ): Promise<void> => {
+[7m  [0m [91m   ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m76[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m76[0m ): Promise<void> => {
+[7m  [0m [91m   ~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 04:40:04.194 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m76[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m76[0m ): Promise<void> => {
+[7m  [0m [91m   ~~~~~~~~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m83[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'ValidationError' is not assignable to type 'string'.
+
+[7m83[0m         error: error,
+[7m  [0m [91m        ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m76[0m:[93m4[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+
+[7m76[0m ): Promise<void> => {
+[7m  [0m [91m   ~~~~~~~~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m83[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'ValidationError' is not assignable to type 'string'.
+
+[7m83[0m         error: error,
+[7m  [0m [91m        ~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 04:40:23.063 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m76[0m:[93m4[0m - [91merror[0m[90m TS2366: [0mFunction lacks ending return statement and return type does not include 'undefined'.
+
+[7m76[0m ): Promise<void> => {
+[7m  [0m [91m   ~~~~~~~~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m83[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'ValidationError' is not assignable to type 'string'.
+
+[7m83[0m         error: error,
+[7m  [0m [91m        ~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m86[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'undefined' is not assignable to type 'Promise<void>'.
+
+[7m86[0m       return
+[7m  [0m [91m      ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m76[0m:[93m4[0m - [91merror[0m[90m TS2366: [0mFunction lacks ending return statement and return type does not include 'undefined'.
+
+[7m76[0m ): Promise<void> => {
+[7m  [0m [91m   ~~~~~~~~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m83[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'ValidationError' is not assignable to type 'string'.
+
+[7m83[0m         error: error,
+[7m  [0m [91m        ~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m86[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'undefined' is not assignable to type 'Promise<void>'.
+
+[7m86[0m       return
+[7m  [0m [91m      ~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 04:45:06.208 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m91[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m91[0m       data: userLoginValidate
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m91[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m91[0m       data: userLoginValidate
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 04:45:50.690 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m91[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m91[0m       data: userLoginValidate
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m91[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m91[0m       data: userLoginValidate
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 04:48:11.099 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m94[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m94[0m       data: userLoginValidate
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m94[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m94[0m       data: userLoginValidate
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 04:49:24.421 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m97[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m97[0m       data: user
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m97[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m97[0m       data: user
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 04:50:54.835 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m97[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m97[0m       data: user
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m97[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m97[0m       data: user
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 04:51:27.575 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m103[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m103[0m       data: user
+[7m   [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m103[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m103[0m       data: user
+[7m   [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 04:52:59.623 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m9[0m - [91merror[0m[90m TS2554: [0mExpected 2-3 arguments, but got 1.
+
+[7m102[0m     if (compare(value.password))
+[7m   [0m [91m        ~~~~~~~[0m
+
+  [96mnode_modules/@types/bcrypt/index.d.ts[0m:[93m160[0m:[93m56[0m
+    [7m160[0m export declare function compare(data: string | Buffer, encrypted: string): Promise<boolean>;
+    [7m   [0m [96m                                                       ~~~~~~~~~~~~~~~~~[0m
+    An argument for 'encrypted' was not provided.
+[96msrc/controllers/user.controller.ts[0m:[93m106[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m106[0m         data: user
+[7m   [0m [91m        ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m9[0m - [91merror[0m[90m TS2554: [0mExpected 2-3 arguments, but got 1.
+
+[7m102[0m     if (compare(value.password))
+[7m   [0m [91m        ~~~~~~~[0m
+
+  [96mnode_modules/@types/bcrypt/index.d.ts[0m:[93m160[0m:[93m56[0m
+    [7m160[0m export declare function compare(data: string | Buffer, encrypted: string): Promise<boolean>;
+    [7m   [0m [96m                                                       ~~~~~~~~~~~~~~~~~[0m
+    An argument for 'encrypted' was not provided.
+[96msrc/controllers/user.controller.ts[0m:[93m106[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m106[0m         data: user
+[7m   [0m [91m        ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 04:54:26.943 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m9[0m - [91merror[0m[90m TS2801: [0mThis condition will always return true since this 'Promise<boolean>' is always defined.
+
+[7m102[0m     if (compare(value.password, user.password)) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m9[0m
+    [7m102[0m     if (compare(value.password, user.password)) {
+    [7m   [0m [96m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Did you forget to use 'await'?
+[96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m38[0m - [91merror[0m[90m TS2339: [0mProperty 'password' does not exist on type 'Promise<UserType>'.
+
+[7m102[0m     if (compare(value.password, user.password)) {
+[7m   [0m [91m                                     ~~~~~~~~[0m
+
+  [96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m38[0m
+    [7m102[0m     if (compare(value.password, user.password)) {
+    [7m   [0m [96m                                     ~~~~~~~~[0m
+    Did you forget to use 'await'?
+[96msrc/controllers/user.controller.ts[0m:[93m106[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'Promise<UserType>' is not assignable to type 'UserType | UserType[]'.
+
+[7m106[0m         data: user
+[7m   [0m [91m        ~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m112[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<UserType>' is not assignable to type 'UserType | UserType[]'.
+
+[7m112[0m       data: user
+[7m   [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m9[0m - [91merror[0m[90m TS2801: [0mThis condition will always return true since this 'Promise<boolean>' is always defined.
+
+[7m102[0m     if (compare(value.password, user.password)) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m9[0m
+    [7m102[0m     if (compare(value.password, user.password)) {
+    [7m   [0m [96m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Did you forget to use 'await'?
+[96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m38[0m - [91merror[0m[90m TS2339: [0mProperty 'password' does not exist on type 'Promise<UserType>'.
+
+[7m102[0m     if (compare(value.password, user.password)) {
+[7m   [0m [91m                                     ~~~~~~~~[0m
+
+  [96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m38[0m
+    [7m102[0m     if (compare(value.password, user.password)) {
+    [7m   [0m [96m                                     ~~~~~~~~[0m
+    Did you forget to use 'await'?
+[96msrc/controllers/user.controller.ts[0m:[93m106[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'Promise<UserType>' is not assignable to type 'UserType | UserType[]'.
+
+[7m106[0m         data: user
+[7m   [0m [91m        ~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m112[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<UserType>' is not assignable to type 'UserType | UserType[]'.
+
+[7m112[0m       data: user
+[7m   [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 04:54:34.952 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m9[0m - [91merror[0m[90m TS2801: [0mThis condition will always return true since this 'Promise<boolean>' is always defined.
+
+[7m102[0m     if (compare(value.password, user.password)) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m9[0m
+    [7m102[0m     if (compare(value.password, user.password)) {
+    [7m   [0m [96m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Did you forget to use 'await'?
+[96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m38[0m - [91merror[0m[90m TS2339: [0mProperty 'password' does not exist on type 'Promise<any>'.
+
+[7m102[0m     if (compare(value.password, user.password)) {
+[7m   [0m [91m                                     ~~~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m106[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m106[0m         data: user
+[7m   [0m [91m        ~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m112[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m112[0m       data: user
+[7m   [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m9[0m - [91merror[0m[90m TS2801: [0mThis condition will always return true since this 'Promise<boolean>' is always defined.
+
+[7m102[0m     if (compare(value.password, user.password)) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m9[0m
+    [7m102[0m     if (compare(value.password, user.password)) {
+    [7m   [0m [96m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Did you forget to use 'await'?
+[96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m38[0m - [91merror[0m[90m TS2339: [0mProperty 'password' does not exist on type 'Promise<any>'.
+
+[7m102[0m     if (compare(value.password, user.password)) {
+[7m   [0m [91m                                     ~~~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m106[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m106[0m         data: user
+[7m   [0m [91m        ~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m112[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Promise<any>' is not assignable to type 'UserType | UserType[]'.
+
+[7m112[0m       data: user
+[7m   [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 04:56:03.991 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m9[0m - [91merror[0m[90m TS2801: [0mThis condition will always return true since this 'Promise<boolean>' is always defined.
+
+[7m102[0m     if (compare(value.password, user.password)) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m9[0m
+    [7m102[0m     if (compare(value.password, user.password)) {
+    [7m   [0m [96m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Did you forget to use 'await'?
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m9[0m - [91merror[0m[90m TS2801: [0mThis condition will always return true since this 'Promise<boolean>' is always defined.
+
+[7m102[0m     if (compare(value.password, user.password)) {
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/user.controller.ts[0m:[93m102[0m:[93m9[0m
+    [7m102[0m     if (compare(value.password, user.password)) {
+    [7m   [0m [96m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Did you forget to use 'await'?
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)

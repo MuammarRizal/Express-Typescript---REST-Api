@@ -14,3 +14,13 @@ export const getAllUserService = async (): Promise<UserType[]> => {
   const data = await prisma.user.findMany()
   return data
 }
+
+export const userLogin = async (payload: UserType) => {
+  const data = await prisma.user.findUnique({
+    where: {
+      email: payload.email
+    }
+  })
+
+  return data
+}

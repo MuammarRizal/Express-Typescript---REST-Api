@@ -1,0 +1,352 @@
+[LOGGER] 2024-11-27 05:00:02.990 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m79[0m:[93m4[0m - [91merror[0m[90m TS2366: [0mFunction lacks ending return statement and return type does not include 'undefined'.
+
+[7m79[0m ): Promise<Response> => {
+[7m  [0m [91m   ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m79[0m:[93m4[0m - [91merror[0m[90m TS2366: [0mFunction lacks ending return statement and return type does not include 'undefined'.
+
+[7m79[0m ): Promise<Response> => {
+[7m  [0m [91m   ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 05:01:58.990 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m84[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'Response<ResponseTypeAuth, Record<string, any>>' is not assignable to type 'void'.
+
+[7m84[0m     return res.status(404).json({
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m93[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Response<ResponseTypeAuth, Record<string, any>>' is not assignable to type 'void'.
+
+[7m93[0m       return res.status(404).json({
+[7m  [0m [91m      ~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m100[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Response<ResponseTypeAuth, Record<string, any>>' is not assignable to type 'void'.
+
+[7m100[0m       return res.status(404).json({
+[7m   [0m [91m      ~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m106[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'Response<ResponseTypeAuth, Record<string, any>>' is not assignable to type 'void'.
+
+[7m106[0m     return res.status(200).json({
+[7m   [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m84[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'Response<ResponseTypeAuth, Record<string, any>>' is not assignable to type 'void'.
+
+[7m84[0m     return res.status(404).json({
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m93[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Response<ResponseTypeAuth, Record<string, any>>' is not assignable to type 'void'.
+
+[7m93[0m       return res.status(404).json({
+[7m  [0m [91m      ~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m100[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'Response<ResponseTypeAuth, Record<string, any>>' is not assignable to type 'void'.
+
+[7m100[0m       return res.status(404).json({
+[7m   [0m [91m      ~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m106[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'Response<ResponseTypeAuth, Record<string, any>>' is not assignable to type 'void'.
+
+[7m106[0m     return res.status(200).json({
+[7m   [0m [91m    ~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 05:04:01.270 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m79[0m:[93m4[0m - [91merror[0m[90m TS2366: [0mFunction lacks ending return statement and return type does not include 'undefined'.
+
+[7m79[0m ): Promise<Response<ResponseTypeAuth>> => {
+[7m  [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m79[0m:[93m4[0m - [91merror[0m[90m TS2366: [0mFunction lacks ending return statement and return type does not include 'undefined'.
+
+[7m79[0m ): Promise<Response<ResponseTypeAuth>> => {
+[7m  [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 05:12:58.797 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m11[0m:[93m31[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request<UserType>, res: Response<ResponseTypeAuth>, next: NextFunction) => Promise<Response<ResponseTypeAuth> | void>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(req: Request<UserType, any, any, ParsedQs, Record<string, any>>, res: Response<ResponseTypeAuth, Record<string, any>>, next: NextFunction) => Promise<...>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+[7m11[0m AuthRouter.get('/user/login', loginUserController)
+[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m164[0m:[93m5[0m
+    [7m164[0m     (path: PathParams, subApplication: Application): T;
+    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    The last overload is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m11[0m:[93m31[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request<UserType>, res: Response<ResponseTypeAuth>, next: NextFunction) => Promise<Response<ResponseTypeAuth> | void>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(req: Request<UserType, any, any, ParsedQs, Record<string, any>>, res: Response<ResponseTypeAuth, Record<string, any>>, next: NextFunction) => Promise<...>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+[7m11[0m AuthRouter.get('/user/login', loginUserController)
+[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m164[0m:[93m5[0m
+    [7m164[0m     (path: PathParams, subApplication: Application): T;
+    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    The last overload is declared here.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 05:13:30.117 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m11[0m:[93m31[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request<UserType>, res: Response<ResponseTypeAuth>, next: NextFunction) => Promise<Response<ResponseTypeAuth, Record<string, any>> | undefined>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(req: Request<UserType, any, any, ParsedQs, Record<string, any>>, res: Response<ResponseTypeAuth, Record<string, any>>, next: NextFunction) => Promise<...>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+[7m11[0m AuthRouter.get('/user/login', loginUserController)
+[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m164[0m:[93m5[0m
+    [7m164[0m     (path: PathParams, subApplication: Application): T;
+    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    The last overload is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m11[0m:[93m31[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request<UserType>, res: Response<ResponseTypeAuth>, next: NextFunction) => Promise<Response<ResponseTypeAuth, Record<string, any>> | undefined>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(req: Request<UserType, any, any, ParsedQs, Record<string, any>>, res: Response<ResponseTypeAuth, Record<string, any>>, next: NextFunction) => Promise<...>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+[7m11[0m AuthRouter.get('/user/login', loginUserController)
+[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m164[0m:[93m5[0m
+    [7m164[0m     (path: PathParams, subApplication: Application): T;
+    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    The last overload is declared here.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 05:14:34.482 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m11[0m:[93m31[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request<UserType>, res: Response<ResponseTypeAuth>, next: NextFunction) => Promise<Response<ResponseTypeAuth, Record<string, any>> | undefined>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(req: Request<UserType, any, any, ParsedQs, Record<string, any>>, res: Response<ResponseTypeAuth, Record<string, any>>, next: NextFunction) => Promise<...>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+[7m11[0m AuthRouter.get('/user/login', loginUserController)
+[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m164[0m:[93m5[0m
+    [7m164[0m     (path: PathParams, subApplication: Application): T;
+    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    The last overload is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m11[0m:[93m31[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request<UserType>, res: Response<ResponseTypeAuth>, next: NextFunction) => Promise<Response<ResponseTypeAuth, Record<string, any>> | undefined>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(req: Request<UserType, any, any, ParsedQs, Record<string, any>>, res: Response<ResponseTypeAuth, Record<string, any>>, next: NextFunction) => Promise<...>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+[7m11[0m AuthRouter.get('/user/login', loginUserController)
+[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m164[0m:[93m5[0m
+    [7m164[0m     (path: PathParams, subApplication: Application): T;
+    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    The last overload is declared here.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 05:15:55.304 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m11[0m:[93m31[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request<UserType>, res: Response<ResponseTypeAuth>, next: NextFunction) => Promise<Response<ResponseTypeAuth> | void>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(req: Request<UserType, any, any, ParsedQs, Record<string, any>>, res: Response<ResponseTypeAuth, Record<string, any>>, next: NextFunction) => Promise<...>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+[7m11[0m AuthRouter.get('/user/login', loginUserController)
+[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m164[0m:[93m5[0m
+    [7m164[0m     (path: PathParams, subApplication: Application): T;
+    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    The last overload is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m11[0m:[93m31[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request<UserType>, res: Response<ResponseTypeAuth>, next: NextFunction) => Promise<Response<ResponseTypeAuth> | void>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(req: Request<UserType, any, any, ParsedQs, Record<string, any>>, res: Response<ResponseTypeAuth, Record<string, any>>, next: NextFunction) => Promise<...>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+[7m11[0m AuthRouter.get('/user/login', loginUserController)
+[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m164[0m:[93m5[0m
+    [7m164[0m     (path: PathParams, subApplication: Application): T;
+    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    The last overload is declared here.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 05:16:21.810 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m11[0m:[93m31[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request<UserType>, res: Response<ResponseTypeAuth>, next: NextFunction) => Promise<Response<ResponseTypeAuth> | void>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(req: Request<UserType, any, any, ParsedQs, Record<string, any>>, res: Response<ResponseTypeAuth, Record<string, any>>, next: NextFunction) => Promise<...>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+[7m11[0m AuthRouter.get('/user/login', loginUserController)
+[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m164[0m:[93m5[0m
+    [7m164[0m     (path: PathParams, subApplication: Application): T;
+    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    The last overload is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m11[0m:[93m31[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(req: Request<UserType>, res: Response<ResponseTypeAuth>, next: NextFunction) => Promise<Response<ResponseTypeAuth> | void>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(req: Request<UserType, any, any, ParsedQs, Record<string, any>>, res: Response<ResponseTypeAuth, Record<string, any>>, next: NextFunction) => Promise<...>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+[7m11[0m AuthRouter.get('/user/login', loginUserController)
+[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m164[0m:[93m5[0m
+    [7m164[0m     (path: PathParams, subApplication: Application): T;
+    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    The last overload is declared here.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 05:24:19.325 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m96[0m:[93m34[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.
+  Type '{ user_id: string; nama: string; role: string; email: string; }' has no call signatures.
+
+[7m96[0m     const user: UserType = await userLogin(value)
+[7m  [0m [91m                                 ~~~~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m96[0m:[93m34[0m - [91merror[0m[90m TS2448: [0mBlock-scoped variable 'userLogin' used before its declaration.
+
+[7m96[0m     const user: UserType = await userLogin(value)
+[7m  [0m [91m                                 ~~~~~~~~~[0m
+
+  [96msrc/controllers/user.controller.ts[0m:[93m113[0m:[93m11[0m
+    [7m113[0m     const userLogin = {
+    [7m   [0m [96m          ~~~~~~~~~[0m
+    'userLogin' is declared here.
+[96msrc/controllers/user.controller.ts[0m:[93m96[0m:[93m34[0m - [91merror[0m[90m TS2454: [0mVariable 'userLogin' is used before being assigned.
+
+[7m96[0m     const user: UserType = await userLogin(value)
+[7m  [0m [91m                                 ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m96[0m:[93m34[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.
+  Type '{ user_id: string; nama: string; role: string; email: string; }' has no call signatures.
+
+[7m96[0m     const user: UserType = await userLogin(value)
+[7m  [0m [91m                                 ~~~~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m96[0m:[93m34[0m - [91merror[0m[90m TS2448: [0mBlock-scoped variable 'userLogin' used before its declaration.
+
+[7m96[0m     const user: UserType = await userLogin(value)
+[7m  [0m [91m                                 ~~~~~~~~~[0m
+
+  [96msrc/controllers/user.controller.ts[0m:[93m113[0m:[93m11[0m
+    [7m113[0m     const userLogin = {
+    [7m   [0m [96m          ~~~~~~~~~[0m
+    'userLogin' is declared here.
+[96msrc/controllers/user.controller.ts[0m:[93m96[0m:[93m34[0m - [91merror[0m[90m TS2454: [0mVariable 'userLogin' is used before being assigned.
+
+[7m96[0m     const user: UserType = await userLogin(value)
+[7m  [0m [91m                                 ~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 05:26:37.578 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m126[0m:[93m7[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'accessToken' does not exist in type 'ResponseUserLogin'.
+
+[7m126[0m       accessToken: token,
+[7m   [0m [91m      ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m126[0m:[93m7[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'accessToken' does not exist in type 'ResponseUserLogin'.
+
+[7m126[0m       accessToken: token,
+[7m   [0m [91m      ~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)

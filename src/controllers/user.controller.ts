@@ -1,10 +1,15 @@
-import { getAllUserService } from './../services/user.service'
+import { getAllUserService, userLogin } from './../services/user.service'
 import { NextFunction, Request, Response } from 'express'
-import { userValidation } from '../validations/user.validation'
+import {
+  loginUserValidation,
+  userValidation
+} from '../validations/user.validation'
 import { UserType } from '../types/user.types'
-import { ResponseTypeAuth } from '../types/response.types'
+import { ResponseTypeAuth, ResponseUserLogin } from '../types/response.types'
 import { createUser } from '../services/user.service'
-import { encrypt } from '../utils/bcrypt'
+import { encrypt, compare } from '../utils/bcrypt'
+import { ValidationError } from 'joi'
+import { generateAccessToken, generateRefreshToken } from '../utils/jwt'
 
 export const GetAllUserController = async (
   req: Request,
@@ -66,5 +71,66 @@ export const RegisterUserController = async (
     } else {
       next(new Error('Unknown error occurred'))
     }
+  }
+}
+
+export const loginUserController = async (
+  req: Request<UserType>,
+  res: Response<ResponseUserLogin>,
+  next: NextFunction
+): Promise<void> => {
+  const payload: UserType = req.body
+  const {
+    error,
+    value
+  }: { error: ValidationError | undefined; value: UserType } =
+    loginUserValidation(payload)
+  if (error) {
+    res.status(404).json({
+      message: 'Error validation : ' + error.message,
+      error: error.message,
+      data: value
+    })
+    return
+  }
+  try {
+    const user = await userLogin(value)
+    if (!user) {
+      res.status(404).json({
+        error: 'User not found',
+        message: 'Login gagal'
+      })
+      return
+    }
+    if (!compare(value.password, user.password)) {
+      res.status(404).json({
+        error: 'Password salah',
+        message: 'Login Gagal',
+        data: user
+      })
+      return
+    }
+    const loginUser = {
+      user_id: user.user_id,
+      nama: user.nama,
+      email: user.email,
+      role: user.role
+    }
+    const accessToken = generateAccessToken(loginUser)
+    const refreshToken = generateRefreshToken(loginUser)
+    res.status(200).json({
+      message: 'Login Sukses',
+      error: null,
+      data: loginUser,
+      accessToken,
+      refreshToken
+    })
+    return
+  } catch (error: unknown) {
+    const errorMessage =
+      error instanceof Error ? error.message : 'Unknown error occurred'
+    next(
+      new Error(`Error pada create User : user.controller.ts - ${errorMessage}`)
+    )
   }
 }
