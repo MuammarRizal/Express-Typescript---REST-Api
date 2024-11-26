@@ -1,12 +1,11 @@
-import { NextFunction, Request, Response } from 'express'
+import { Request, Response } from 'express'
 import { ResponseErrorHandler } from '../types/response.types'
 import { logger } from '../utils/winston'
 
 export const errorHandlerController = (
   err: Error,
   req: Request,
-  res: Response<ResponseErrorHandler>,
-  next: NextFunction
+  res: Response<ResponseErrorHandler>
 ): void => {
   const message = err.message.split(' - ')[1]
   logger.error(err)
@@ -21,10 +20,8 @@ export const errorHandlerController = (
 export const errorNotFoundController = (
   err: Error,
   req: Request,
-  res: Response<ResponseErrorHandler>,
-  next: NextFunction
+  res: Response<ResponseErrorHandler>
 ): void => {
-  const message = err.message.split(' - ')[1]
   logger.error(err)
   res.status(400).json({
     error: 'Not Found',

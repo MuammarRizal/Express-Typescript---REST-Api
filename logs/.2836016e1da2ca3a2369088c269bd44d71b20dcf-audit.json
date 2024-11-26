@@ -39,6 +39,16 @@
       "date": 1732604410801,
       "name": "logs\\2024-11-26-14.log",
       "hash": "201de657b1e02bfdca1131d492ab875e5c8a6528fac9964da5eb4cac7a948e89"
+    },
+    {
+      "date": 1732634705960,
+      "name": "logs\\2024-11-26-22.log",
+      "hash": "2189c0a06340385815a784dd0a9d57e5e98bcdbde716db248815ebd25bd66456"
+    },
+    {
+      "date": 1732636825130,
+      "name": "logs\\2024-11-26-23.log",
+      "hash": "a1bbe1f1c665b41bfcbb1190cfc15a88a8890cc73949471afa9b93ffeaf9c106"
     }
   ],
   "hashType": "sha256"

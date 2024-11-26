@@ -1,3 +1,4 @@
+import { UserType } from './user.types'
 import { BarangTypeDB } from './barang.types'
 
 export interface ResponseData {
@@ -14,4 +15,10 @@ export interface ResponseErrorHandler {
   message: string
   error: string
   data: null
+}
+
+export interface ResponseTypeAuth {
+  message: string
+  data: UserType[] | UserType
+  error?: string
 }

@@ -1,0 +1,528 @@
+[LOGGER] 2024-11-26 11:13:57.625 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2741: [0mProperty 'name' is missing in type '{ nama: string; created_at: Date; updated_at: Date; user_id: string; email: string; password: string; role: string; }' but required in type 'UserType'.
+
+[7m10[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m4[0m:[93m3[0m
+    [7m4[0m   name: string
+    [7m [0m [96m  ~~~~[0m
+    'name' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2741: [0mProperty 'name' is missing in type '{ nama: string; created_at: Date; updated_at: Date; user_id: string; email: string; password: string; role: string; }' but required in type 'UserType'.
+
+[7m10[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m4[0m:[93m3[0m
+    [7m4[0m   name: string
+    [7m [0m [96m  ~~~~[0m
+    'name' is declared here.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:14:33.134 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2741: [0mProperty 'name' is missing in type '{ nama: string; created_at: Date; updated_at: Date; user_id: string; email: string; password: string; role: string; }' but required in type 'UserType'.
+
+[7m10[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m4[0m:[93m3[0m
+    [7m4[0m   name: string
+    [7m [0m [96m  ~~~~[0m
+    'name' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2741: [0mProperty 'name' is missing in type '{ nama: string; created_at: Date; updated_at: Date; user_id: string; email: string; password: string; role: string; }' but required in type 'UserType'.
+
+[7m10[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m4[0m:[93m3[0m
+    [7m4[0m   name: string
+    [7m [0m [96m  ~~~~[0m
+    'name' is declared here.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:14:59.624 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2741: [0mProperty 'name' is missing in type '{ nama: string; created_at: Date; updated_at: Date; user_id: string; email: string; password: string; role: string; }' but required in type 'UserType'.
+
+[7m10[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m4[0m:[93m3[0m
+    [7m4[0m   name: string
+    [7m [0m [96m  ~~~~[0m
+    'name' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2741: [0mProperty 'name' is missing in type '{ nama: string; created_at: Date; updated_at: Date; user_id: string; email: string; password: string; role: string; }' but required in type 'UserType'.
+
+[7m10[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m4[0m:[93m3[0m
+    [7m4[0m   name: string
+    [7m [0m [96m  ~~~~[0m
+    'name' is declared here.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:15:29.601 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2741: [0mProperty 'name' is missing in type '{ nama: string; created_at: Date; updated_at: Date; user_id: string; email: string; password: string; role: string; }' but required in type 'UserType'.
+
+[7m10[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m4[0m:[93m3[0m
+    [7m4[0m   name: string
+    [7m [0m [96m  ~~~~[0m
+    'name' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2741: [0mProperty 'name' is missing in type '{ nama: string; created_at: Date; updated_at: Date; user_id: string; email: string; password: string; role: string; }' but required in type 'UserType'.
+
+[7m10[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m4[0m:[93m3[0m
+    [7m4[0m   name: string
+    [7m [0m [96m  ~~~~[0m
+    'name' is declared here.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:17:16.925 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2741: [0mProperty 'name' is missing in type '{ nama: string; created_at: Date; updated_at: Date; user_id: string; email: string; password: string; role: string; }' but required in type 'UserType'.
+
+[7m10[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m4[0m:[93m3[0m
+    [7m4[0m   name: string
+    [7m [0m [96m  ~~~~[0m
+    'name' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2741: [0mProperty 'name' is missing in type '{ nama: string; created_at: Date; updated_at: Date; user_id: string; email: string; password: string; role: string; }' but required in type 'UserType'.
+
+[7m10[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m4[0m:[93m3[0m
+    [7m4[0m   name: string
+    [7m [0m [96m  ~~~~[0m
+    'name' is declared here.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:20:40.267 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m24[0m:[93m84[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m24[0m     const payloadWithoutConfirmPassword = {name : payload.nama,email: payload.email: password: payload.password}
+[7m  [0m [91m                                                                                   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m24[0m:[93m84[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m24[0m     const payloadWithoutConfirmPassword = {name : payload.nama,email: payload.email: password: payload.password}
+[7m  [0m [91m                                                                                   ~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:20:56.488 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m24[0m:[93m84[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m24[0m     const payloadWithoutConfirmPassword = {name : payload.nama,email: payload.email: ,password: payload.password}
+[7m  [0m [91m                                                                                   ~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m24[0m:[93m86[0m - [91merror[0m[90m TS1136: [0mProperty assignment expected.
+
+[7m24[0m     const payloadWithoutConfirmPassword = {name : payload.nama,email: payload.email: ,password: payload.password}
+[7m  [0m [91m                                                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m24[0m:[93m84[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m24[0m     const payloadWithoutConfirmPassword = {name : payload.nama,email: payload.email: ,password: payload.password}
+[7m  [0m [91m                                                                                   ~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m24[0m:[93m86[0m - [91merror[0m[90m TS1136: [0mProperty assignment expected.
+
+[7m24[0m     const payloadWithoutConfirmPassword = {name : payload.nama,email: payload.email: ,password: payload.password}
+[7m  [0m [91m                                                                                     ~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:21:11.380 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m29[0m:[93m39[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ name: string; email: string; password: string; }' is not assignable to parameter of type 'UserType'.
+  Type '{ name: string; email: string; password: string; }' is missing the following properties from type 'UserType': user_id, nama, role
+
+[7m29[0m     const dataUser = await createUser(payloadWithoutConfirmPassword)
+[7m  [0m [91m                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m29[0m:[93m39[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ name: string; email: string; password: string; }' is not assignable to parameter of type 'UserType'.
+  Type '{ name: string; email: string; password: string; }' is missing the following properties from type 'UserType': user_id, nama, role
+
+[7m29[0m     const dataUser = await createUser(payloadWithoutConfirmPassword)
+[7m  [0m [91m                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:21:20.002 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m29[0m:[93m39[0m - [91merror[0m[90m TS2556: [0mA spread argument must either have a tuple type or be passed to a rest parameter.
+
+[7m29[0m     const dataUser = await createUser(...payloadWithoutConfirmPassword)
+[7m  [0m [91m                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m29[0m:[93m42[0m - [91merror[0m[90m TS2488: [0mType '{ name: string; email: string; password: string; }' must have a '[Symbol.iterator]()' method that returns an iterator.
+
+[7m29[0m     const dataUser = await createUser(...payloadWithoutConfirmPassword)
+[7m  [0m [91m                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m29[0m:[93m39[0m - [91merror[0m[90m TS2556: [0mA spread argument must either have a tuple type or be passed to a rest parameter.
+
+[7m29[0m     const dataUser = await createUser(...payloadWithoutConfirmPassword)
+[7m  [0m [91m                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m29[0m:[93m42[0m - [91merror[0m[90m TS2488: [0mType '{ name: string; email: string; password: string; }' must have a '[Symbol.iterator]()' method that returns an iterator.
+
+[7m29[0m     const dataUser = await createUser(...payloadWithoutConfirmPassword)
+[7m  [0m [91m                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:23:28.503 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:24:29.675 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:26:18.354 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:27:50.861 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:28:27.312 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:28:40.969 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:28:50.299 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:29:49.421 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.route.ts[0m:[93m7[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllUserController'.
+
+[7m7[0m AuthRouter.get('/user', getAllUserController)
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:41:58.007 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m42[0m:[93m20[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m42[0m   value.password = encrypt()
+[7m  [0m [91m                   ~~~~~~~[0m
+
+  [96msrc/utils/bcrypt.ts[0m:[93m4[0m:[93m18[0m
+    [7m4[0m const encrypt = (password: string) => {
+    [7m [0m [96m                 ~~~~~~~~~~~~~~~~[0m
+    An argument for 'password' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m42[0m:[93m20[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m42[0m   value.password = encrypt()
+[7m  [0m [91m                   ~~~~~~~[0m
+
+  [96msrc/utils/bcrypt.ts[0m:[93m4[0m:[93m18[0m
+    [7m4[0m const encrypt = (password: string) => {
+    [7m [0m [96m                 ~~~~~~~~~~~~~~~~[0m
+    An argument for 'password' was not provided.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 11:42:21.614 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m41[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'ValidationResult<UserType>' is not assignable to type '{ value: UserType; error: Error; }'.
+  Type '{ error: undefined; warning?: ValidationError | undefined; value: UserType; }' is not assignable to type '{ value: UserType; error: Error; }'.
+    Types of property 'error' are incompatible.
+      Type 'undefined' is not assignable to type 'Error'.
+
+[7m41[0m   const { error, value }: { value: UserType; error: Error } =
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m43[0m:[93m20[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m43[0m   value.password = encrypt()
+[7m  [0m [91m                   ~~~~~~~[0m
+
+  [96msrc/utils/bcrypt.ts[0m:[93m4[0m:[93m18[0m
+    [7m4[0m const encrypt = (password: string) => {
+    [7m [0m [96m                 ~~~~~~~~~~~~~~~~[0m
+    An argument for 'password' was not provided.
+[96msrc/controllers/user.controller.ts[0m:[93m46[0m:[93m20[0m - [91merror[0m[90m TS2339: [0mProperty 'details' does not exist on type 'Error'.
+
+[7m46[0m       error: error.details[0].message,
+[7m  [0m [91m                   ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m41[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'ValidationResult<UserType>' is not assignable to type '{ value: UserType; error: Error; }'.
+  Type '{ error: undefined; warning?: ValidationError | undefined; value: UserType; }' is not assignable to type '{ value: UserType; error: Error; }'.
+    Types of property 'error' are incompatible.
+      Type 'undefined' is not assignable to type 'Error'.
+
+[7m41[0m   const { error, value }: { value: UserType; error: Error } =
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/user.controller.ts[0m:[93m43[0m:[93m20[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m43[0m   value.password = encrypt()
+[7m  [0m [91m                   ~~~~~~~[0m
+
+  [96msrc/utils/bcrypt.ts[0m:[93m4[0m:[93m18[0m
+    [7m4[0m const encrypt = (password: string) => {
+    [7m [0m [96m                 ~~~~~~~~~~~~~~~~[0m
+    An argument for 'password' was not provided.
+[96msrc/controllers/user.controller.ts[0m:[93m46[0m:[93m20[0m - [91merror[0m[90m TS2339: [0mProperty 'details' does not exist on type 'Error'.
+
+[7m46[0m       error: error.details[0].message,
+[7m  [0m [91m                   ~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
