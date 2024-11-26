@@ -1,8 +1,8 @@
 import joi from 'joi'
-import { BarangType } from '../types/barang.types'
+import { BarangTypeDB } from '../types/barang.types'
 
 export const inputBarangValidation = (
-  payload: BarangType
+  payload: BarangTypeDB
 ): joi.ValidationResult => {
   const schema = joi.object({
     nama: joi.string().trim().required().messages({

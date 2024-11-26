@@ -1,0 +1,588 @@
+[LOGGER] 2024-11-26 12:34:21.992 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; } | null' is not assignable to type 'BarangTypeDB'.
+  Type 'null' is not assignable to type 'BarangTypeDB'.
+
+[7m11[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ nama: string; jumlah: number; harga: Decimal; id: number; created_at: Date; updated_at: Date; } | null' is not assignable to type 'BarangTypeDB'.
+  Type 'null' is not assignable to type 'BarangTypeDB'.
+
+[7m11[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:36:54.659 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/barang.route.ts[0m:[93m10[0m:[93m33[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getBarangById'.
+
+[7m10[0m BarangRouter.get('/barang/:id', getBarangById)
+[7m  [0m [91m                                ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/barang.route.ts[0m:[93m10[0m:[93m33[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getBarangById'.
+
+[7m10[0m BarangRouter.get('/barang/:id', getBarangById)
+[7m  [0m [91m                                ~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:38:35.705 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/barang.route.ts[0m:[93m11[0m:[93m33[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(id: number) => Promise<{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(id: number) => Promise<{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+[7m11[0m BarangRouter.get('/barang/:id', getBarangById)
+[7m  [0m [91m                                ~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m164[0m:[93m5[0m
+    [7m164[0m     (path: PathParams, subApplication: Application): T;
+    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    The last overload is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/barang.route.ts[0m:[93m11[0m:[93m33[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  The last overload gave the following error.
+    Argument of type '(id: number) => Promise<{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null>' is not assignable to parameter of type 'Application<Record<string, any>>'.
+      Type '(id: number) => Promise<{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null>' is missing the following properties from type 'Application<Record<string, any>>': init, defaultConfiguration, engine, set, and 63 more.
+
+[7m11[0m BarangRouter.get('/barang/:id', getBarangById)
+[7m  [0m [91m                                ~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m164[0m:[93m5[0m
+    [7m164[0m     (path: PathParams, subApplication: Application): T;
+    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    The last overload is declared here.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:41:29.931 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m63[0m:[93m40[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'number'.
+
+[7m63[0m     const data = await getDetailBarang(id)
+[7m  [0m [91m                                       ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m63[0m:[93m40[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'number'.
+
+[7m63[0m     const data = await getDetailBarang(id)
+[7m  [0m [91m                                       ~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:42:07.284 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m66[0m:[93m17[0m - [91merror[0m[90m TS18046: [0m'error' is of type 'unknown'.
+
+[7m66[0m     console.log(error.message)
+[7m  [0m [91m                ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m66[0m:[93m17[0m - [91merror[0m[90m TS18046: [0m'error' is of type 'unknown'.
+
+[7m66[0m     console.log(error.message)
+[7m  [0m [91m                ~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:42:20.984 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m65[0m:[93m19[0m - [91merror[0m[90m TS1196: [0mCatch clause variable type annotation must be 'any' or 'unknown' if specified.
+
+[7m65[0m   } catch (error: Error) {
+[7m  [0m [91m                  ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m65[0m:[93m19[0m - [91merror[0m[90m TS1196: [0mCatch clause variable type annotation must be 'any' or 'unknown' if specified.
+
+[7m65[0m   } catch (error: Error) {
+[7m  [0m [91m                  ~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:46:42.064 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m48[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'unknown' is not assignable to type 'BarangTypeDB[]'.
+
+[7m48[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m48[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'unknown' is not assignable to type 'BarangTypeDB[]'.
+
+[7m48[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:47:18.094 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null' is not assignable to type 'BarangTypeDB'.
+  Type 'null' is not assignable to type 'BarangTypeDB'.
+
+[7m11[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null' is not assignable to type 'BarangTypeDB'.
+  Type 'null' is not assignable to type 'BarangTypeDB'.
+
+[7m11[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:47:39.526 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m11[0m:[93m4[0m - [91merror[0m[90m TS1064: [0mThe return type of an async function or method must be the global Promise<T> type. Did you mean to write 'Promise<BarangTypeDB | null>'?
+
+[7m11[0m ): Promise<BarangTypeDB> | null => {
+[7m  [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m11[0m:[93m4[0m - [91merror[0m[90m TS1064: [0mThe return type of an async function or method must be the global Promise<T> type. Did you mean to write 'Promise<BarangTypeDB | null>'?
+
+[7m11[0m ): Promise<BarangTypeDB> | null => {
+[7m  [0m [91m   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:48:05.881 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m13[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null' is not assignable to type '{ data: BarangTypeDB; }'.
+  Type 'null' is not assignable to type '{ data: BarangTypeDB; }'.
+
+[7m13[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m13[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null' is not assignable to type '{ data: BarangTypeDB; }'.
+  Type 'null' is not assignable to type '{ data: BarangTypeDB; }'.
+
+[7m13[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:48:23.554 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null' is not assignable to type 'Function'.
+  Type 'null' is not assignable to type 'Function'.
+
+[7m11[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null' is not assignable to type 'Function'.
+  Type 'null' is not assignable to type 'Function'.
+
+[7m11[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:48:31.654 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null' is not assignable to type 'BarangTypeDB'.
+  Type 'null' is not assignable to type 'BarangTypeDB'.
+
+[7m11[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null' is not assignable to type 'BarangTypeDB'.
+  Type 'null' is not assignable to type 'BarangTypeDB'.
+
+[7m11[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:48:53.673 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null' is not assignable to type 'BarangTypeDB'.
+  Type 'null' is not assignable to type 'BarangTypeDB'.
+
+[7m11[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null' is not assignable to type 'BarangTypeDB'.
+  Type 'null' is not assignable to type 'BarangTypeDB'.
+
+[7m11[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:50:33.617 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m48[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB[] | null' is not assignable to type 'BarangTypeDB[]'.
+  Type 'null' is not assignable to type 'BarangTypeDB[]'.
+
+[7m48[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m48[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB[] | null' is not assignable to type 'BarangTypeDB[]'.
+  Type 'null' is not assignable to type 'BarangTypeDB[]'.
+
+[7m48[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:51:11.897 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m48[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB[] | null' is not assignable to type 'BarangTypeDB[]'.
+  Type 'null' is not assignable to type 'BarangTypeDB[]'.
+
+[7m48[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m48[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB[] | null' is not assignable to type 'BarangTypeDB[]'.
+  Type 'null' is not assignable to type 'BarangTypeDB[]'.
+
+[7m48[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:53:35.232 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null' is not assignable to type 'BarangTypeDB'.
+  Type 'null' is not assignable to type 'BarangTypeDB'.
+
+[7m12[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ id: number; nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; } | null' is not assignable to type 'BarangTypeDB'.
+  Type 'null' is not assignable to type 'BarangTypeDB'.
+
+[7m12[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:56:03.324 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m71[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'BarangTypeDB[]'.
+
+[7m71[0m         data
+[7m  [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m78[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+[7m78[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m71[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'BarangTypeDB[]'.
+
+[7m71[0m         data
+[7m  [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m78[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+[7m78[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:56:12.268 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m64[0m:[93m4[0m - [91merror[0m[90m TS1064: [0mThe return type of an async function or method must be the global Promise<T> type. Did you mean to write 'Promise<void>'?
+
+[7m64[0m ): void => {
+[7m  [0m [91m   ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m71[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'BarangTypeDB[]'.
+
+[7m71[0m         data
+[7m  [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m78[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+[7m78[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m64[0m:[93m4[0m - [91merror[0m[90m TS1064: [0mThe return type of an async function or method must be the global Promise<T> type. Did you mean to write 'Promise<void>'?
+
+[7m64[0m ): void => {
+[7m  [0m [91m   ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m71[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'BarangTypeDB[]'.
+
+[7m71[0m         data
+[7m  [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m78[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+[7m78[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:56:24.123 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m71[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'BarangTypeDB[]'.
+
+[7m71[0m         data
+[7m  [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m78[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+[7m78[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m71[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'BarangTypeDB[]'.
+
+[7m71[0m         data
+[7m  [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m78[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+[7m78[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:56:59.703 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m71[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'BarangTypeDB[]'.
+
+[7m71[0m         data
+[7m  [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m78[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+[7m78[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m71[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'BarangTypeDB[]'.
+
+[7m71[0m         data
+[7m  [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m78[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+[7m78[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:57:16.554 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m78[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+[7m78[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m78[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+[7m78[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:57:25.447 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m48[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB[]' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga, and 2 more.
+
+[7m48[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m48[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB[]' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga, and 2 more.
+
+[7m48[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 12:58:13.964 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m71[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'BarangTypeDB[]'.
+
+[7m71[0m         data
+[7m  [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m78[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+[7m78[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m71[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'null' is not assignable to type 'BarangTypeDB[]'.
+
+[7m71[0m         data
+[7m  [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m78[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+[7m78[0m       data
+[7m  [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)

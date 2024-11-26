@@ -1,0 +1,1154 @@
+[LOGGER] 2024-11-26 01:02:22.239 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m10[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangType' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangType' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput> & BarangCreateInput'.
+    Type 'BarangType' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput>'.
+      Types of property 'id' are incompatible.
+        Type 'string' is not assignable to type 'undefined'.
+
+[7m10[0m   const data = await prisma.barang.create({ data: payload })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m10[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangType' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangType' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput> & BarangCreateInput'.
+    Type 'BarangType' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput>'.
+      Types of property 'id' are incompatible.
+        Type 'string' is not assignable to type 'undefined'.
+
+[7m10[0m   const data = await prisma.barang.create({ data: payload })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:08:15.313 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m21[0m:[93m9[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'error' does not exist in type 'ResponseDetailBarang'.
+
+[7m21[0m         error: error.details[0].message,
+[7m  [0m [91m        ~~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m31[0m:[93m9[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'error' does not exist in type 'ResponseDetailBarang'.
+
+[7m31[0m         error: null,
+[7m  [0m [91m        ~~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m40[0m:[93m9[0m - [91merror[0m[90m TS2740: [0mType '{}' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga, and 2 more.
+
+[7m40[0m         data: {}
+[7m  [0m [91m        ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m21[0m:[93m9[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'error' does not exist in type 'ResponseDetailBarang'.
+
+[7m21[0m         error: error.details[0].message,
+[7m  [0m [91m        ~~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m31[0m:[93m9[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'error' does not exist in type 'ResponseDetailBarang'.
+
+[7m31[0m         error: null,
+[7m  [0m [91m        ~~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m40[0m:[93m9[0m - [91merror[0m[90m TS2740: [0mType '{}' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga, and 2 more.
+
+[7m40[0m         data: {}
+[7m  [0m [91m        ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:09:11.449 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m29[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'BarangType' is not assignable to parameter of type 'BarangTypeDB'.
+  Type 'BarangType' is missing the following properties from type 'BarangTypeDB': created_at, updated_at
+
+[7m29[0m       const insertDataDB = await insertBarangToDB(payload)
+[7m  [0m [91m                                                  ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m29[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'BarangType' is not assignable to parameter of type 'BarangTypeDB'.
+  Type 'BarangType' is missing the following properties from type 'BarangTypeDB': created_at, updated_at
+
+[7m29[0m       const insertDataDB = await insertBarangToDB(payload)
+[7m  [0m [91m                                                  ~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:09:42.092 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m11[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangType' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangType' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput> & BarangCreateInput'.
+    Type 'BarangType' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput>'.
+      Types of property 'id' are incompatible.
+        Type 'string' is not assignable to type 'undefined'.
+
+[7m11[0m   const data = await prisma.barang.create({ data: allBarang })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m11[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangType' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangType' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput> & BarangCreateInput'.
+    Type 'BarangType' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput>'.
+      Types of property 'id' are incompatible.
+        Type 'string' is not assignable to type 'undefined'.
+
+[7m11[0m   const data = await prisma.barang.create({ data: allBarang })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:13:14.384 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m15[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType '{ created_at: Date; updated_at: Date; id: string; nama: string; jumlah: number; harga: number; }' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type '{ created_at: Date; updated_at: Date; id: string; nama: string; jumlah: number; harga: number; }' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput> & BarangCreateInput'.
+    Type '{ created_at: Date; updated_at: Date; id: string; nama: string; jumlah: number; harga: number; }' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput>'.
+      Types of property 'id' are incompatible.
+        Type 'string' is not assignable to type 'undefined'.
+
+[7m15[0m   const data = await prisma.barang.create({ data: dataToDb })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m15[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType '{ created_at: Date; updated_at: Date; id: string; nama: string; jumlah: number; harga: number; }' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type '{ created_at: Date; updated_at: Date; id: string; nama: string; jumlah: number; harga: number; }' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput> & BarangCreateInput'.
+    Type '{ created_at: Date; updated_at: Date; id: string; nama: string; jumlah: number; harga: number; }' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput>'.
+      Types of property 'id' are incompatible.
+        Type 'string' is not assignable to type 'undefined'.
+
+[7m15[0m   const data = await prisma.barang.create({ data: dataToDb })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:14:01.560 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m15[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType '{ created_at: number; updated_at: number; id: string; nama: string; jumlah: number; harga: number; }' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type '{ created_at: number; updated_at: number; id: string; nama: string; jumlah: number; harga: number; }' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput> & BarangCreateInput'.
+    Type '{ created_at: number; updated_at: number; id: string; nama: string; jumlah: number; harga: number; }' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput>'.
+      Types of property 'id' are incompatible.
+        Type 'string' is not assignable to type 'undefined'.
+
+[7m15[0m   const data = await prisma.barang.create({ data: dataToDb })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m15[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType '{ created_at: number; updated_at: number; id: string; nama: string; jumlah: number; harga: number; }' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type '{ created_at: number; updated_at: number; id: string; nama: string; jumlah: number; harga: number; }' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput> & BarangCreateInput'.
+    Type '{ created_at: number; updated_at: number; id: string; nama: string; jumlah: number; harga: number; }' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput>'.
+      Types of property 'id' are incompatible.
+        Type 'string' is not assignable to type 'undefined'.
+
+[7m15[0m   const data = await prisma.barang.create({ data: dataToDb })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:14:12.644 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m10[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangType' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangType' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput> & BarangCreateInput'.
+    Type 'BarangType' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput>'.
+      Types of property 'id' are incompatible.
+        Type 'string' is not assignable to type 'undefined'.
+
+[7m10[0m   const data = await prisma.barang.create({ data: payload })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m10[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangType' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangType' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput> & BarangCreateInput'.
+    Type 'BarangType' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput>'.
+      Types of property 'id' are incompatible.
+        Type 'string' is not assignable to type 'undefined'.
+
+[7m10[0m   const data = await prisma.barang.create({ data: payload })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:16:21.019 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m29[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'BarangType' is not assignable to parameter of type 'BarangTypeDB'.
+  Type 'BarangType' is missing the following properties from type 'BarangTypeDB': created_at, updated_at
+
+[7m29[0m       const insertDataDB = await insertBarangToDB(payload)
+[7m  [0m [91m                                                  ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m29[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'BarangType' is not assignable to parameter of type 'BarangTypeDB'.
+  Type 'BarangType' is missing the following properties from type 'BarangTypeDB': created_at, updated_at
+
+[7m29[0m       const insertDataDB = await insertBarangToDB(payload)
+[7m  [0m [91m                                                  ~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:16:44.289 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m29[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'BarangType' is not assignable to parameter of type 'BarangTypeDB'.
+  Types of property 'id' are incompatible.
+    Type 'string' is not assignable to type 'number'.
+
+[7m29[0m       const insertDataDB = await insertBarangToDB(payload)
+[7m  [0m [91m                                                  ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m29[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'BarangType' is not assignable to parameter of type 'BarangTypeDB'.
+  Types of property 'id' are incompatible.
+    Type 'string' is not assignable to type 'number'.
+
+[7m29[0m       const insertDataDB = await insertBarangToDB(payload)
+[7m  [0m [91m                                                  ~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:17:15.997 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m29[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'BarangType' is not assignable to parameter of type 'BarangTypeDB'.
+  Types of property 'harga' are incompatible.
+    Type 'number' is not assignable to type 'Decimal'.
+
+[7m29[0m       const insertDataDB = await insertBarangToDB(payload)
+[7m  [0m [91m                                                  ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m29[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'BarangType' is not assignable to parameter of type 'BarangTypeDB'.
+  Types of property 'harga' are incompatible.
+    Type 'number' is not assignable to type 'Decimal'.
+
+[7m29[0m       const insertDataDB = await insertBarangToDB(payload)
+[7m  [0m [91m                                                  ~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:17:47.195 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m6[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; id: number; }[]' is not assignable to type 'BarangTypeDB[]'.
+  Type '{ nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; id: number; }' is not assignable to type 'BarangTypeDB'.
+    Types of property 'id' are incompatible.
+      Type 'number' is not assignable to type 'string'.
+
+[7m6[0m   return data
+[7m [0m [91m  ~~~~~~[0m
+[96msrc/services/barang.service.ts[0m:[93m10[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput> & BarangCreateInput'.
+    Type 'BarangTypeDB' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput>'.
+      Types of property 'id' are incompatible.
+        Type 'string' is not assignable to type 'undefined'.
+
+[7m10[0m   const data = await prisma.barang.create({ data: payload })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+[96msrc/services/barang.service.ts[0m:[93m18[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; id: number; } | null' is not assignable to type 'BarangTypeDB | null'.
+  Type '{ nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; id: number; }' is not assignable to type 'BarangTypeDB'.
+    Types of property 'id' are incompatible.
+      Type 'number' is not assignable to type 'string'.
+
+[7m18[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m6[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; id: number; }[]' is not assignable to type 'BarangTypeDB[]'.
+  Type '{ nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; id: number; }' is not assignable to type 'BarangTypeDB'.
+    Types of property 'id' are incompatible.
+      Type 'number' is not assignable to type 'string'.
+
+[7m6[0m   return data
+[7m [0m [91m  ~~~~~~[0m
+[96msrc/services/barang.service.ts[0m:[93m10[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput> & BarangCreateInput'.
+    Type 'BarangTypeDB' is not assignable to type 'Without<BarangUncheckedCreateInput, BarangCreateInput>'.
+      Types of property 'id' are incompatible.
+        Type 'string' is not assignable to type 'undefined'.
+
+[7m10[0m   const data = await prisma.barang.create({ data: payload })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+[96msrc/services/barang.service.ts[0m:[93m18[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; id: number; } | null' is not assignable to type 'BarangTypeDB | null'.
+  Type '{ nama: string; jumlah: number; harga: Decimal; created_at: Date; updated_at: Date; id: number; }' is not assignable to type 'BarangTypeDB'.
+    Types of property 'id' are incompatible.
+      Type 'number' is not assignable to type 'string'.
+
+[7m18[0m   return data
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:18:07.527 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m17[0m:[93m52[0m - [91merror[0m[90m TS2345: [0mArgument of type 'BarangTypeDB' is not assignable to parameter of type 'BarangType'.
+  Types of property 'id' are incompatible.
+    Type 'number' is not assignable to type 'string'.
+
+[7m17[0m     const { error, value } = inputBarangValidation(payload)
+[7m  [0m [91m                                                   ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m17[0m:[93m52[0m - [91merror[0m[90m TS2345: [0mArgument of type 'BarangTypeDB' is not assignable to parameter of type 'BarangType'.
+  Types of property 'id' are incompatible.
+    Type 'number' is not assignable to type 'string'.
+
+[7m17[0m     const { error, value } = inputBarangValidation(payload)
+[7m  [0m [91m                                                   ~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:19:08.436 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m18[0m:[93m52[0m - [91merror[0m[90m TS2345: [0mArgument of type 'BarangTypeDB' is not assignable to parameter of type 'BarangType'.
+  Types of property 'id' are incompatible.
+    Type 'number' is not assignable to type 'string'.
+
+[7m18[0m     const { error, value } = inputBarangValidation(payload)
+[7m  [0m [91m                                                   ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m18[0m:[93m52[0m - [91merror[0m[90m TS2345: [0mArgument of type 'BarangTypeDB' is not assignable to parameter of type 'BarangType'.
+  Types of property 'id' are incompatible.
+    Type 'number' is not assignable to type 'string'.
+
+[7m18[0m     const { error, value } = inputBarangValidation(payload)
+[7m  [0m [91m                                                   ~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:19:34.506 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m18[0m:[93m66[0m - [91merror[0m[90m TS2322: [0mType 'number' is not assignable to type 'string'.
+
+[7m18[0m     const { error, value } = inputBarangValidation({ ...payload, id })
+[7m  [0m [91m                                                                 ~~[0m
+
+  [96msrc/types/barang.types.ts[0m:[93m4[0m:[93m3[0m
+    [7m4[0m   id: string
+    [7m [0m [96m  ~~[0m
+    The expected type comes from property 'id' which is declared here on type 'BarangType'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m18[0m:[93m66[0m - [91merror[0m[90m TS2322: [0mType 'number' is not assignable to type 'string'.
+
+[7m18[0m     const { error, value } = inputBarangValidation({ ...payload, id })
+[7m  [0m [91m                                                                 ~~[0m
+
+  [96msrc/types/barang.types.ts[0m:[93m4[0m:[93m3[0m
+    [7m4[0m   id: string
+    [7m [0m [96m  ~~[0m
+    The expected type comes from property 'id' which is declared here on type 'BarangType'
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:19:58.048 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m16[0m:[93m20[0m - [91merror[0m[90m TS2552: [0mCannot find name 'BarangTypeDB'. Did you mean 'BarangType'?
+
+[7m16[0m     const payload: BarangTypeDB = req.body
+[7m  [0m [91m                   ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m16[0m:[93m20[0m - [91merror[0m[90m TS2552: [0mCannot find name 'BarangTypeDB'. Did you mean 'BarangType'?
+
+[7m16[0m     const payload: BarangTypeDB = req.body
+[7m  [0m [91m                   ~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:20:37.798 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m10[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput'.
+    Type 'BarangTypeDB' is not assignable to type 'BarangUncheckedCreateInput'.
+      Types of property 'id' are incompatible.
+        Type 'string | number' is not assignable to type 'number | undefined'.
+          Type 'string' is not assignable to type 'number'.
+
+[7m10[0m   const data = await prisma.barang.create({ data: payload })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m10[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput'.
+    Type 'BarangTypeDB' is not assignable to type 'BarangUncheckedCreateInput'.
+      Types of property 'id' are incompatible.
+        Type 'string | number' is not assignable to type 'number | undefined'.
+          Type 'string' is not assignable to type 'number'.
+
+[7m10[0m   const data = await prisma.barang.create({ data: payload })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:21:44.346 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m13[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput'.
+    Type 'BarangTypeDB' is not assignable to type 'BarangUncheckedCreateInput'.
+      Types of property 'id' are incompatible.
+        Type 'string | number' is not assignable to type 'number | undefined'.
+          Type 'string' is not assignable to type 'number'.
+
+[7m13[0m   const data = await prisma.barang.create({ data: payload })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m13[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput'.
+    Type 'BarangTypeDB' is not assignable to type 'BarangUncheckedCreateInput'.
+      Types of property 'id' are incompatible.
+        Type 'string | number' is not assignable to type 'number | undefined'.
+          Type 'string' is not assignable to type 'number'.
+
+[7m13[0m   const data = await prisma.barang.create({ data: payload })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:21:56.146 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m10[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput'.
+    Type 'BarangTypeDB' is not assignable to type 'BarangUncheckedCreateInput'.
+      Types of property 'id' are incompatible.
+        Type 'string | number' is not assignable to type 'number | undefined'.
+          Type 'string' is not assignable to type 'number'.
+
+[7m10[0m   const data = await prisma.barang.create({ data: payload })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m10[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput'.
+    Type 'BarangTypeDB' is not assignable to type 'BarangUncheckedCreateInput'.
+      Types of property 'id' are incompatible.
+        Type 'string | number' is not assignable to type 'number | undefined'.
+          Type 'string' is not assignable to type 'number'.
+
+[7m10[0m   const data = await prisma.barang.create({ data: payload })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:22:16.928 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m10[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput'.
+    Type 'BarangTypeDB' is not assignable to type 'BarangUncheckedCreateInput'.
+      Types of property 'id' are incompatible.
+        Type 'string | number' is not assignable to type 'number | undefined'.
+          Type 'string' is not assignable to type 'number'.
+
+[7m10[0m   const data = await prisma.barang.create({ data: payload })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m10[0m:[93m45[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput'.
+    Type 'BarangTypeDB' is not assignable to type 'BarangUncheckedCreateInput'.
+      Types of property 'id' are incompatible.
+        Type 'string | number' is not assignable to type 'number | undefined'.
+          Type 'string' is not assignable to type 'number'.
+
+[7m10[0m   const data = await prisma.barang.create({ data: payload })
+[7m  [0m [91m                                            ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1706[0m:[93m5[0m
+    [7m1706[0m     data: XOR<BarangCreateInput, BarangUncheckedCreateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangCreateInput, BarangUncheckedCreateInput> & BarangUncheckedCreateInput) | (Without<...> & BarangCreateInput); }'
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:24:47.492 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m16[0m:[93m14[0m - [91merror[0m[90m TS2322: [0mType 'string | number' is not assignable to type 'number | undefined'.
+  Type 'string' is not assignable to type 'number'.
+
+[7m16[0m     where: { id: payload.id },
+[7m  [0m [91m             ~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m2775[0m:[93m5[0m
+    [7m2775[0m     id?: number
+    [7m    [0m [96m    ~~[0m
+    The expected type comes from property 'id' which is declared here on type 'BarangWhereUniqueInput'
+[96msrc/services/barang.service.ts[0m:[93m17[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput) | (Without<...> & BarangUpdateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput'.
+    Types of property 'id' are incompatible.
+      Type 'string | number' is not assignable to type 'number | IntFieldUpdateOperationsInput | undefined'.
+        Type 'string' is not assignable to type 'number | IntFieldUpdateOperationsInput | undefined'.
+
+[7m17[0m     data: payload
+[7m  [0m [91m    ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1731[0m:[93m5[0m
+    [7m1731[0m     data: XOR<BarangUpdateInput, BarangUncheckedUpdateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput) | (Without<...> & BarangUpdateInput); where: BarangWhereUniqueInput; }'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m16[0m:[93m14[0m - [91merror[0m[90m TS2322: [0mType 'string | number' is not assignable to type 'number | undefined'.
+  Type 'string' is not assignable to type 'number'.
+
+[7m16[0m     where: { id: payload.id },
+[7m  [0m [91m             ~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m2775[0m:[93m5[0m
+    [7m2775[0m     id?: number
+    [7m    [0m [96m    ~~[0m
+    The expected type comes from property 'id' which is declared here on type 'BarangWhereUniqueInput'
+[96msrc/services/barang.service.ts[0m:[93m17[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput) | (Without<...> & BarangUpdateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput'.
+    Types of property 'id' are incompatible.
+      Type 'string | number' is not assignable to type 'number | IntFieldUpdateOperationsInput | undefined'.
+        Type 'string' is not assignable to type 'number | IntFieldUpdateOperationsInput | undefined'.
+
+[7m17[0m     data: payload
+[7m  [0m [91m    ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1731[0m:[93m5[0m
+    [7m1731[0m     data: XOR<BarangUpdateInput, BarangUncheckedUpdateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput) | (Without<...> & BarangUpdateInput); where: BarangWhereUniqueInput; }'
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:25:09.127 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m17[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput) | (Without<...> & BarangUpdateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput'.
+    Types of property 'id' are incompatible.
+      Type 'string | number' is not assignable to type 'number | IntFieldUpdateOperationsInput | undefined'.
+        Type 'string' is not assignable to type 'number | IntFieldUpdateOperationsInput | undefined'.
+
+[7m17[0m     data: payload
+[7m  [0m [91m    ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1731[0m:[93m5[0m
+    [7m1731[0m     data: XOR<BarangUpdateInput, BarangUncheckedUpdateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput) | (Without<...> & BarangUpdateInput); where: BarangWhereUniqueInput; }'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m17[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput) | (Without<...> & BarangUpdateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput'.
+    Types of property 'id' are incompatible.
+      Type 'string | number' is not assignable to type 'number | IntFieldUpdateOperationsInput | undefined'.
+        Type 'string' is not assignable to type 'number | IntFieldUpdateOperationsInput | undefined'.
+
+[7m17[0m     data: payload
+[7m  [0m [91m    ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1731[0m:[93m5[0m
+    [7m1731[0m     data: XOR<BarangUpdateInput, BarangUncheckedUpdateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput) | (Without<...> & BarangUpdateInput); where: BarangWhereUniqueInput; }'
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:25:26.048 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m17[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput) | (Without<...> & BarangUpdateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput'.
+    Types of property 'id' are incompatible.
+      Type 'string | number' is not assignable to type 'number | IntFieldUpdateOperationsInput | undefined'.
+        Type 'string' is not assignable to type 'number | IntFieldUpdateOperationsInput | undefined'.
+
+[7m17[0m     data: payload
+[7m  [0m [91m    ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1731[0m:[93m5[0m
+    [7m1731[0m     data: XOR<BarangUpdateInput, BarangUncheckedUpdateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput) | (Without<...> & BarangUpdateInput); where: BarangWhereUniqueInput; }'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m17[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'BarangTypeDB' is not assignable to type '(Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput) | (Without<...> & BarangUpdateInput)'.
+  Type 'BarangTypeDB' is not assignable to type 'Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput'.
+    Types of property 'id' are incompatible.
+      Type 'string | number' is not assignable to type 'number | IntFieldUpdateOperationsInput | undefined'.
+        Type 'string' is not assignable to type 'number | IntFieldUpdateOperationsInput | undefined'.
+
+[7m17[0m     data: payload
+[7m  [0m [91m    ~~~~[0m
+
+  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1731[0m:[93m5[0m
+    [7m1731[0m     data: XOR<BarangUpdateInput, BarangUncheckedUpdateInput>
+    [7m    [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type '{ select?: BarangSelect<DefaultArgs> | null | undefined; data: (Without<BarangUpdateInput, BarangUncheckedUpdateInput> & BarangUncheckedUpdateInput) | (Without<...> & BarangUpdateInput); where: BarangWhereUniqueInput; }'
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:32:27.748 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m117[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+[7m117[0m       data: deletedBarang
+[7m   [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m117[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType 'BarangTypeDB' is missing the following properties from type 'BarangTypeDB[]': length, pop, push, concat, and 29 more.
+
+[7m117[0m       data: deletedBarang
+[7m   [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:38:25.534 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m1[0m:[93m10[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'BarangTypeDB'.
+
+[7m1[0m import { BarangTypeDB } from './../types/barang.types'
+[7m [0m [91m         ~~~~~~~~~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m11[0m:[93m10[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'BarangTypeDB'.
+
+[7m11[0m import { BarangTypeDB } from '../types/barang.types'
+[7m  [0m [91m         ~~~~~~~~~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m138[0m:[93m53[0m - [91merror[0m[90m TS2304: [0mCannot find name 'id'.
+
+[7m138[0m     const deletedBarang = await deleteBarang(Number(id))
+[7m   [0m [91m                                                    ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m1[0m:[93m10[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'BarangTypeDB'.
+
+[7m1[0m import { BarangTypeDB } from './../types/barang.types'
+[7m [0m [91m         ~~~~~~~~~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m11[0m:[93m10[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'BarangTypeDB'.
+
+[7m11[0m import { BarangTypeDB } from '../types/barang.types'
+[7m  [0m [91m         ~~~~~~~~~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m138[0m:[93m53[0m - [91merror[0m[90m TS2304: [0mCannot find name 'id'.
+
+[7m138[0m     const deletedBarang = await deleteBarang(Number(id))
+[7m   [0m [91m                                                    ~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:39:01.804 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m1[0m:[93m10[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'BarangTypeDB'.
+
+[7m1[0m import { BarangTypeDB } from './../types/barang.types'
+[7m [0m [91m         ~~~~~~~~~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m11[0m:[93m10[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'BarangTypeDB'.
+
+[7m11[0m import { BarangTypeDB } from '../types/barang.types'
+[7m  [0m [91m         ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m1[0m:[93m10[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'BarangTypeDB'.
+
+[7m1[0m import { BarangTypeDB } from './../types/barang.types'
+[7m [0m [91m         ~~~~~~~~~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m11[0m:[93m10[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'BarangTypeDB'.
+
+[7m11[0m import { BarangTypeDB } from '../types/barang.types'
+[7m  [0m [91m         ~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:39:32.933 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m140[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m140[0m       data: updateBarang
+[7m   [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m140[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m140[0m       data: updateBarang
+[7m   [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:40:05.468 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m140[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m140[0m       data: updateBarang
+[7m   [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m140[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m140[0m       data: updateBarang
+[7m   [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:41:34.530 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m141[0m:[93m9[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m141[0m         data: updateBarang
+[7m   [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m147[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m147[0m       data: updateBarang
+[7m   [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m141[0m:[93m9[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m141[0m         data: updateBarang
+[7m   [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m147[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m147[0m       data: updateBarang
+[7m   [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:44:04.404 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m141[0m:[93m9[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m141[0m         data: updateBarang
+[7m   [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m147[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m147[0m       data: updateBarang
+[7m   [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m141[0m:[93m9[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m141[0m         data: updateBarang
+[7m   [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m147[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m147[0m       data: updateBarang
+[7m   [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:44:30.774 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m141[0m:[93m9[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m141[0m         data: updateBarang
+[7m   [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m147[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m147[0m       data: updateBarang
+[7m   [0m [91m      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m141[0m:[93m9[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m141[0m         data: updateBarang
+[7m   [0m [91m        ~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m147[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType 'Promise<BarangTypeDB>' is missing the following properties from type 'BarangTypeDB': id, nama, jumlah, harga
+
+[7m147[0m       data: updateBarang
+[7m   [0m [91m      ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:55:03.296 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m137[0m:[93m26[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m137[0m     const updateBarang = updatedBarang(payload)
+[7m   [0m [91m                         ~~~~~~~~~~~~~[0m
+
+  [96msrc/services/barang.service.ts[0m:[93m16[0m:[93m3[0m
+    [7m16[0m   payload: BarangTypeDB
+    [7m  [0m [96m  ~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'payload' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m137[0m:[93m26[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m137[0m     const updateBarang = updatedBarang(payload)
+[7m   [0m [91m                         ~~~~~~~~~~~~~[0m
+
+  [96msrc/services/barang.service.ts[0m:[93m16[0m:[93m3[0m
+    [7m16[0m   payload: BarangTypeDB
+    [7m  [0m [96m  ~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'payload' was not provided.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:55:24.789 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m137[0m:[93m26[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m137[0m     const updateBarang = updatedBarang({ id: Number(req.params.id), payload })
+[7m   [0m [91m                         ~~~~~~~~~~~~~[0m
+
+  [96msrc/services/barang.service.ts[0m:[93m16[0m:[93m3[0m
+    [7m16[0m   payload: BarangTypeDB
+    [7m  [0m [96m  ~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'payload' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m137[0m:[93m26[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m137[0m     const updateBarang = updatedBarang({ id: Number(req.params.id), payload })
+[7m   [0m [91m                         ~~~~~~~~~~~~~[0m
+
+  [96msrc/services/barang.service.ts[0m:[93m16[0m:[93m3[0m
+    [7m16[0m   payload: BarangTypeDB
+    [7m  [0m [96m  ~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'payload' was not provided.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-26 01:55:44.079 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m15[0m:[93m7[0m - [91merror[0m[90m TS7031: [0mBinding element 'number' implicitly has an 'any' type.
+
+[7m15[0m   id: number,
+[7m  [0m [91m      ~~~~~~[0m
+[96msrc/services/barang.service.ts[0m:[93m16[0m:[93m12[0m - [91merror[0m[90m TS7031: [0mBinding element 'BarangTypeDB' implicitly has an 'any' type.
+
+[7m16[0m   payload: BarangTypeDB
+[7m  [0m [91m           ~~~~~~~~~~~~[0m
+[96msrc/services/barang.service.ts[0m:[93m19[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'id'.
+
+[7m19[0m     where: { id: Number(id) },
+[7m  [0m [91m                        ~~[0m
+[96msrc/services/barang.service.ts[0m:[93m20[0m:[93m11[0m - [91merror[0m[90m TS2304: [0mCannot find name 'payload'.
+
+[7m20[0m     data: payload
+[7m  [0m [91m          ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/barang.service.ts[0m:[93m15[0m:[93m7[0m - [91merror[0m[90m TS7031: [0mBinding element 'number' implicitly has an 'any' type.
+
+[7m15[0m   id: number,
+[7m  [0m [91m      ~~~~~~[0m
+[96msrc/services/barang.service.ts[0m:[93m16[0m:[93m12[0m - [91merror[0m[90m TS7031: [0mBinding element 'BarangTypeDB' implicitly has an 'any' type.
+
+[7m16[0m   payload: BarangTypeDB
+[7m  [0m [91m           ~~~~~~~~~~~~[0m
+[96msrc/services/barang.service.ts[0m:[93m19[0m:[93m25[0m - [91merror[0m[90m TS2304: [0mCannot find name 'id'.
+
+[7m19[0m     where: { id: Number(id) },
+[7m  [0m [91m                        ~~[0m
+[96msrc/services/barang.service.ts[0m:[93m20[0m:[93m11[0m - [91merror[0m[90m TS2304: [0mCannot find name 'payload'.
+
+[7m20[0m     data: payload
+[7m  [0m [91m          ~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
