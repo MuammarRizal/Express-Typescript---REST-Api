@@ -108,10 +108,9 @@ export const loginUserController = async (
       return
     }
     if (!compare(value.password, user.password)) {
-      res.status(404).json({
+      res.status(400).json({
         error: 'Password salah',
-        message: 'Login Gagal',
-        data: user
+        message: 'Login Gagal'
       })
       return
     }

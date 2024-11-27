@@ -28,6 +28,14 @@ yarn check-types ||
 )
 echo '😍PERFECT! keep like that!'
 
+yarn test || 
+(
+    echo '🤮🤮☠️☠️ Failed unit test
+        Hey refactor your fucking code bro'
+        false
+)
+echo '❤️❤️❤️ loveyou bro, your past the testing unit'
+
 yarn build || 
 (
     echo '☠️☠️☠️Failed to build.
