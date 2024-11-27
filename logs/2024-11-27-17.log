@@ -1,0 +1,114 @@
+[LOGGER] 2024-11-27 05:04:37.304 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/jwt.ts[0m:[93m41[0m:[93m53[0m - [91merror[0m[90m TS2304: [0mCannot find name 'verifyToken'.
+
+[7m41[0m export { generateAccessToken, generateRefreshToken, verifyToken, parseJWT }
+[7m  [0m [91m                                                    ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/jwt.ts[0m:[93m41[0m:[93m53[0m - [91merror[0m[90m TS2304: [0mCannot find name 'verifyToken'.
+
+[7m41[0m export { generateAccessToken, generateRefreshToken, verifyToken, parseJWT }
+[7m  [0m [91m                                                    ~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 05:25:34.515 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/jwt.ts[0m:[93m30[0m:[93m44[0m - [91merror[0m[90m TS2304: [0mCannot find name 'TypeVerifyToken'.
+
+[7m30[0m const verifyAccessToken = (token: string): TypeVerifyToken => {
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/jwt.ts[0m:[93m30[0m:[93m44[0m - [91merror[0m[90m TS2304: [0mCannot find name 'TypeVerifyToken'.
+
+[7m30[0m const verifyAccessToken = (token: string): TypeVerifyToken => {
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 05:27:46.872 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/jwt.ts[0m:[93m30[0m:[93m44[0m - [91merror[0m[90m TS2304: [0mCannot find name 'TypeVerifyToken'.
+
+[7m30[0m const verifyAccessToken = (token: string): TypeVerifyToken => {
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/jwt.ts[0m:[93m30[0m:[93m44[0m - [91merror[0m[90m TS2304: [0mCannot find name 'TypeVerifyToken'.
+
+[7m30[0m const verifyAccessToken = (token: string): TypeVerifyToken => {
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 05:30:42.689 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/jwt.ts[0m:[93m33[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'string | JwtPayload' is not assignable to type 'TypeVerifyToken | null'.
+  Type 'string' is not assignable to type 'TypeVerifyToken'.
+
+[7m33[0m     return jsonWebToken.verify(token, String(process.env.JWT_SECRET))
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/jwt.ts[0m:[93m33[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'string | JwtPayload' is not assignable to type 'TypeVerifyToken | null'.
+  Type 'string' is not assignable to type 'TypeVerifyToken'.
+
+[7m33[0m     return jsonWebToken.verify(token, String(process.env.JWT_SECRET))
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 05:31:21.017 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/jwt.ts[0m:[93m33[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'string | JwtPayload' is not assignable to type 'TypeVerifyToken | null'.
+  Type 'string' is not assignable to type 'TypeVerifyToken'.
+
+[7m33[0m     return jsonWebToken.verify(token, String(process.env.JWT_SECRET))
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/jwt.ts[0m:[93m33[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'string | JwtPayload' is not assignable to type 'TypeVerifyToken | null'.
+  Type 'string' is not assignable to type 'TypeVerifyToken'.
+
+[7m33[0m     return jsonWebToken.verify(token, String(process.env.JWT_SECRET))
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)

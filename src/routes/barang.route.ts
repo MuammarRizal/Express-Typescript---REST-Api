@@ -6,16 +6,17 @@ import {
   insertBarang,
   updateBarangController
 } from '../controllers/barang.controller'
+import { autenticate } from '../controllers/errorHandler.controller'
 
 const BarangRouter: Router = Router()
 
-BarangRouter.get('/barang', getAllBarang)
+BarangRouter.get('/barang', autenticate, getAllBarang)
 
-BarangRouter.post('/barang', insertBarang)
+BarangRouter.post('/barang', autenticate, insertBarang)
 
-BarangRouter.get('/barang/:id', getBarangById)
+BarangRouter.get('/barang/:id', autenticate, getBarangById)
 
-BarangRouter.put('/barang/:id', updateBarangController)
+BarangRouter.put('/barang/:id', autenticate, updateBarangController)
 
-BarangRouter.delete('/barang/:id', deleteBarangController)
+BarangRouter.delete('/barang/:id', autenticate, deleteBarangController)
 export default BarangRouter
