@@ -9,7 +9,12 @@ import { ResponseTypeAuth, ResponseUserLogin } from '../types/response.types'
 import { createUser } from '../services/user.service'
 import { encrypt, compare } from '../utils/bcrypt'
 import { ValidationError } from 'joi'
-import { generateAccessToken, generateRefreshToken } from '../utils/jwt'
+import {
+  generateAccessToken,
+  generateRefreshToken,
+  parseJWT,
+  verifyRefreshToken
+} from '../utils/jwt'
 
 export const GetAllUserController = async (
   req: Request,
@@ -126,11 +131,75 @@ export const loginUserController = async (
       refreshToken
     })
     return
-  } catch (error: unknown) {
+  } catch (error: Error | unknown) {
     const errorMessage =
       error instanceof Error ? error.message : 'Unknown error occurred'
     next(
-      new Error(`Error pada create User : user.controller.ts - ${errorMessage}`)
+      new Error(
+        `Error pada login user controller : user.controller.ts - ${errorMessage}`
+      )
+    )
+  }
+}
+
+export const refreshToken = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+): Promise<void> => {
+  try {
+    const authHeader = req.headers.authorization
+    const token = authHeader?.split(' ')[1]
+
+    if (!token) {
+      res.status(401).json({
+        error: 'Unauthorized',
+        message: 'Verifikasi token gagal',
+        data: null
+      })
+      return
+    }
+
+    const verify = verifyRefreshToken(token)
+    if (!verify) {
+      res.status(401).json({
+        error: 'Token tidak valid',
+        message: 'Verifikasi token gagal',
+        data: null
+      })
+      return
+    }
+
+    const data = parseJWT(token)
+    const user = await userLogin(data)
+    if (!user) {
+      res.status(404).json({
+        error: 'Token tidak valid',
+        message: 'Refresh token gagal ',
+        data: null
+      })
+      return
+    }
+    user.password = 'xxxxxxx'
+    const accessToken = generateAccessToken(user)
+    const refreshToken = generateRefreshToken(user)
+    res.status(200).json({
+      error: null,
+      message: 'Login sukses',
+      data: {
+        user,
+        accessToken,
+        refreshToken
+      }
+    })
+    return
+  } catch (error: Error | unknown) {
+    const errorMessage =
+      error instanceof Error ? error.message : 'Unknown error occurred'
+    next(
+      new Error(
+        `Error pada Refresh Token : user.controller.ts - ${errorMessage}`
+      )
     )
   }
 }

@@ -1,3 +1,4 @@
+import { TypeVerifyToken } from '../types/jwt.types'
 import { UserType } from '../types/user.types'
 import prisma from '../utils/client'
 
@@ -15,7 +16,7 @@ export const getAllUserService = async (): Promise<UserType[]> => {
   return data
 }
 
-export const userLogin = async (payload: UserType) => {
+export const userLogin = async (payload: UserType | TypeVerifyToken) => {
   const data = await prisma.user.findUnique({
     where: {
       email: payload.email

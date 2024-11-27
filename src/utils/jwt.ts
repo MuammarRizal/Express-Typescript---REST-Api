@@ -23,7 +23,7 @@ const verifyRefreshToken = (token: string): string | JwtPayload | null => {
   try {
     return jsonWebToken.verify(token, String(process.env.JWT_REFRESH_SECRET))
   } catch (error) {
-    console.log(error)
+    console.log(`Verify Refresh Token ` + typeof error)
     return null
   }
 }
@@ -39,7 +39,7 @@ const verifyAccessToken = (
   }
 }
 
-const parseJWT = (token: string): JSON => {
+const parseJWT = (token: string): TypeVerifyToken => {
   return JSON.parse(Buffer.from(token.split('.')[1], 'base64').toString())
 }
 

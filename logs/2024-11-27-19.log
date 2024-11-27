@@ -1,0 +1,280 @@
+[LOGGER] 2024-11-27 07:18:39.243 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m142[0m:[93m4[0m - [91merror[0m[90m TS1064: [0mThe return type of an async function or method must be the global Promise<T> type. Did you mean to write 'Promise<void>'?
+
+[7m142[0m ): void => {
+[7m   [0m [91m   ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m142[0m:[93m4[0m - [91merror[0m[90m TS1064: [0mThe return type of an async function or method must be the global Promise<T> type. Did you mean to write 'Promise<void>'?
+
+[7m142[0m ): void => {
+[7m   [0m [91m   ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 07:27:02.553 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m174[0m:[93m11[0m - [91merror[0m[90m TS2739: [0mType 'JSON' is missing the following properties from type 'UserType': user_id, email, nama, password, role
+
+[7m174[0m     const data: UserType = parseJWT(token)
+[7m   [0m [91m          ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m174[0m:[93m11[0m - [91merror[0m[90m TS2739: [0mType 'JSON' is missing the following properties from type 'UserType': user_id, email, nama, password, role
+
+[7m174[0m     const data: UserType = parseJWT(token)
+[7m   [0m [91m          ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 07:27:36.980 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m174[0m:[93m11[0m - [91merror[0m[90m TS2739: [0mType 'JSON' is missing the following properties from type 'UserType': user_id, email, nama, password, role
+
+[7m174[0m     const data: UserType = parseJWT(token)
+[7m   [0m [91m          ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m174[0m:[93m11[0m - [91merror[0m[90m TS2739: [0mType 'JSON' is missing the following properties from type 'UserType': user_id, email, nama, password, role
+
+[7m174[0m     const data: UserType = parseJWT(token)
+[7m   [0m [91m          ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 07:28:14.493 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m174[0m:[93m11[0m - [91merror[0m[90m TS2739: [0mType 'JSON' is missing the following properties from type 'UserType': user_id, email, nama, password, role
+
+[7m174[0m     const data: UserType = parseJWT(token)
+[7m   [0m [91m          ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m174[0m:[93m11[0m - [91merror[0m[90m TS2739: [0mType 'JSON' is missing the following properties from type 'UserType': user_id, email, nama, password, role
+
+[7m174[0m     const data: UserType = parseJWT(token)
+[7m   [0m [91m          ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 07:29:40.515 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m174[0m:[93m11[0m - [91merror[0m[90m TS2739: [0mType 'JSON' is missing the following properties from type 'UserType': user_id, email, nama, password, role
+
+[7m174[0m     const data: UserType = parseJWT(token)
+[7m   [0m [91m          ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m174[0m:[93m11[0m - [91merror[0m[90m TS2739: [0mType 'JSON' is missing the following properties from type 'UserType': user_id, email, nama, password, role
+
+[7m174[0m     const data: UserType = parseJWT(token)
+[7m   [0m [91m          ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 07:30:30.124 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m174[0m:[93m11[0m - [91merror[0m[90m TS2739: [0mType 'JSON' is missing the following properties from type 'UserType': user_id, email, nama, password, role
+
+[7m174[0m     const data: UserType = parseJWT(token)
+[7m   [0m [91m          ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m174[0m:[93m11[0m - [91merror[0m[90m TS2739: [0mType 'JSON' is missing the following properties from type 'UserType': user_id, email, nama, password, role
+
+[7m174[0m     const data: UserType = parseJWT(token)
+[7m   [0m [91m          ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 07:30:51.137 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m174[0m:[93m11[0m - [91merror[0m[90m TS2739: [0mType 'JSON' is missing the following properties from type 'UserType': user_id, email, nama, password, role
+
+[7m174[0m     const data: UserType = parseJWT(token)
+[7m   [0m [91m          ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m174[0m:[93m11[0m - [91merror[0m[90m TS2739: [0mType 'JSON' is missing the following properties from type 'UserType': user_id, email, nama, password, role
+
+[7m174[0m     const data: UserType = parseJWT(token)
+[7m   [0m [91m          ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 07:53:44.955 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m175[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'TypeVerifyToken' is not assignable to parameter of type 'UserType'.
+  Property 'password' is missing in type 'TypeVerifyToken' but required in type 'UserType'.
+
+[7m175[0m     const user: UserType | null = await userLogin(data)
+[7m   [0m [91m                                                  ~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m5[0m:[93m3[0m
+    [7m5[0m   password: string
+    [7m [0m [96m  ~~~~~~~~[0m
+    'password' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m175[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'TypeVerifyToken' is not assignable to parameter of type 'UserType'.
+  Property 'password' is missing in type 'TypeVerifyToken' but required in type 'UserType'.
+
+[7m175[0m     const user: UserType | null = await userLogin(data)
+[7m   [0m [91m                                                  ~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m5[0m:[93m3[0m
+    [7m5[0m   password: string
+    [7m [0m [96m  ~~~~~~~~[0m
+    'password' is declared here.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 07:54:08.291 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m175[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'TypeVerifyToken' is not assignable to parameter of type 'UserType'.
+  Property 'password' is missing in type 'TypeVerifyToken' but required in type 'UserType'.
+
+[7m175[0m     const user: UserType | null = await userLogin(data)
+[7m   [0m [91m                                                  ~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m5[0m:[93m3[0m
+    [7m5[0m   password: string
+    [7m [0m [96m  ~~~~~~~~[0m
+    'password' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m175[0m:[93m51[0m - [91merror[0m[90m TS2345: [0mArgument of type 'TypeVerifyToken' is not assignable to parameter of type 'UserType'.
+  Property 'password' is missing in type 'TypeVerifyToken' but required in type 'UserType'.
+
+[7m175[0m     const user: UserType | null = await userLogin(data)
+[7m   [0m [91m                                                  ~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m5[0m:[93m3[0m
+    [7m5[0m   password: string
+    [7m [0m [96m  ~~~~~~~~[0m
+    'password' is declared here.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 07:54:48.020 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m176[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType '{ nama: string; created_at: Date; updated_at: Date; user_id: string; email: string; password: string; role: string; } | null' is not assignable to type 'UserType'.
+  Type 'null' is not assignable to type 'UserType'.
+
+[7m176[0m     const user: UserType = await userLogin(data)
+[7m   [0m [91m          ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m176[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType '{ nama: string; created_at: Date; updated_at: Date; user_id: string; email: string; password: string; role: string; } | null' is not assignable to type 'UserType'.
+  Type 'null' is not assignable to type 'UserType'.
+
+[7m176[0m     const user: UserType = await userLogin(data)
+[7m   [0m [91m          ~~~~[0m
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+[LOGGER] 2024-11-27 07:58:12.482 PM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m176[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'TypeVerifyToken' is not assignable to parameter of type 'UserType'.
+  Property 'password' is missing in type 'TypeVerifyToken' but required in type 'UserType'.
+
+[7m176[0m     const user = await userLogin(data)
+[7m   [0m [91m                                 ~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m5[0m:[93m3[0m
+    [7m5[0m   password: string
+    [7m [0m [96m  ~~~~~~~~[0m
+    'password' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user.controller.ts[0m:[93m176[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'TypeVerifyToken' is not assignable to parameter of type 'UserType'.
+  Property 'password' is missing in type 'TypeVerifyToken' but required in type 'UserType'.
+
+[7m176[0m     const user = await userLogin(data)
+[7m   [0m [91m                                 ~~~~[0m
+
+  [96msrc/types/user.types.ts[0m:[93m5[0m:[93m3[0m
+    [7m5[0m   password: string
+    [7m [0m [96m  ~~~~~~~~[0m
+    'password' is declared here.
+
+    at createTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\Learn Programming\Youtube\PojokKode\REST API - typescript\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
